@@ -1,5 +1,5 @@
 ## INIT - Alles was ich so zum Start gebrauchen kann
-Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spickzettel und rudimentären config-dateien und Checklisten zugreifen kann. Natürlich kann und darf ***jeder*** darin stöbern und für sich nützliches verwenden.
+Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spickzettel, rudimentären config-dateien und Checklisten zugreifen kann. Natürlich kann und darf ***jeder*** darin stöbern und für sich nützliches verwenden.
 ### NOTES (Kurzanleitungen, Checklisten, Spickzettel, Links ...)
 ### CONFIGS (Resouce-Dateien, Init-Dateien)
 ### TEMPLATES (Programmbeispiele, etc)

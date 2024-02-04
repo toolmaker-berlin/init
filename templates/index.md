@@ -49,13 +49,13 @@ Mein **'Hobby'** (CLI orientiertes Unix):
 
 - neu bzw checken:
 
-    locate
-    !! !$
-    grep 
-    sed 
-    awk
-    printf
-    jobs
+    - locate
+    - !! !$
+    - grep 
+    - sed 
+    - awk
+    - printf
+    - jobs
     tig (brew) the git guru
     time (time cmd)
     cal 1984

@@ -59,46 +59,46 @@ Meine **'Toolbox'** (CLI orientiertes Unix):
 
 ## Gruppe der Standart CLI Tools:
 
-      ac
-      who
-      which/where(is)
-      scp
-      rsync
-      ps (juliaup)
-      ripgrep rg -tmd vim
-      exa
-      bat
-      fd
-      tldr
-      dust
-      hyperfine
-      eza ersetzt exa
-      mdless
-      glow 
-      walk nnn ranger 
-      cheat
-      fzf
-      autojump j
-      p7zip
-      the fuck
-      wget
-      mc
-      speedtest
-      tree
-      atuin
-      fig
-      vivid
-      antibody
-      mosh
-      coreutils
-      fast-theme
-      conda
-      juliaup
-      cmatrix
-      ctag?
-      git 
-      gh 
-      hub
+ac
+who
+which/where(is)
+scp
+rsync
+ps (juliaup)
+ripgrep rg -tmd vim
+exa
+bat
+fd
+tldr
+dust
+hyperfine
+eza ersetzt exa
+mdless
+glow 
+walk nnn ranger 
+cheat
+fzf
+autojump j
+p7zip
+the fuck
+wget
+mc
+speedtest
+tree
+atuin
+fig
+vivid
+antibody
+mosh
+coreutils
+fast-theme
+conda
+juliaup
+cmatrix
+ctag?
+git 
+gh 
+hub
 
 
 
@@ -113,45 +113,45 @@ flake8
 isort
 
 - speedtest-cli
-- ​      pypy3
-- ​      ipython
-- ​      numba
-- ​      cython
-- ​      rich
-- ​      ipdb
-- ​      ipwidgets?
-- ​      matplotlib
-- ​      pandas
-- ​      numpy
-- ​      tqdm
-- ​      friendly
-- ​      watermark
-- ​      jedi
-- ​      pylint
-- ​      pygments
-- ​      pynvim
-- ​      colorama
-- ​      icecream
-- ​      pyfzf
-- ​      PySnooper ...neues tool wie trace ...
-- ​      ipyparallel?
-- ​      IPythonBell?
-- ​      julia (Pythonmodul!)
-- ​      jupytext
+- pypy3
+- ipython
+- numba
+- cython
+- rich
+- ipdb
+- ipwidgets?
+- matplotlib
+- pandas
+- numpy
+- tqdm
+- friendly
+- watermark
+- jedi
+- pylint
+- pygments
+- pynvim
+- colorama
+- icecream
+- pyfzf
+- PySnooper ...neues tool wie trace ...
+- ipyparallel?
+- IPythonBell?
+- julia (Pythonmodul!)
+- jupytext
 
 
 ## (add) Julia
 
-    Revise 
-    BenchmarkTools 
-    OhMyREPL 
-    OffsetArrays 
-    Crayons 
-    IJulia 
-    Debugger
-    Infiltrator 
-    ReplMaker 
-    PyCall
+Revise 
+BenchmarkTools 
+OhMyREPL 
+OffsetArrays 
+Crayons 
+IJulia 
+Debugger
+Infiltrator 
+ReplMaker 
+PyCall
 
 ##    VimWiki & MarkDown 
 

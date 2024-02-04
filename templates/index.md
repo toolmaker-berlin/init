@@ -14,10 +14,15 @@ Mein **'Hobby'** (CLI orientiertes Unix):
 ##   Allgemeine
 
 [vifm](vifm-spicker.md)
+
 [git](git-spicker.md)
+
 [tmux](tmux.md)
+
 [lima](lima.md)
+
 [vim](vim.md)
+
 [lftp](ftp.md)
 
 [RegEx](regex.md)

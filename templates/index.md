@@ -56,17 +56,17 @@ Mein **'Hobby'** (CLI orientiertes Unix):
     - awk
     - printf
     - jobs
-    tig (brew) the git guru
-    time (time cmd)
-    cal 1984
-    thefuck
-    j autojump auch zoxide nicht benutzt
-    jq falls mal json
-    direnv
-    nohup
-    RAR (winrar inkl zip)
-    cd - anders als pwd
-    mutt -configuration mit web.de- geht
+    - tig (brew) the git guru
+    - time (time cmd)
+    - cal 1984
+    - thefuck
+    - j autojump auch zoxide nicht benutzt
+    - jq falls mal json
+    - direnv
+    - nohup
+    - RAR (winrar inkl zip)
+    - cd - anders als pwd
+    - mutt -configuration mit web.de- geht
 
 - Gruppe der standart cli tools:
 

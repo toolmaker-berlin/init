@@ -1,6 +1,6 @@
 #    Kurzanleitung
 
-Mein **'Hobby'** (CLI orientiertes Unix):
+Meine **'Toolbox'** (CLI orientiertes Unix):
 
 * ZSH, Vifm, FTP, usw. (Shell & Config) 
 * Vim/NeoVim (VimWiki & Config)
@@ -11,142 +11,136 @@ Mein **'Hobby'** (CLI orientiertes Unix):
 * Docker/Lima (anwenden) 
 
 
-##   Allgemeine
+##   Allgemeines (offen)
 
-[vifm](vifm-spicker.md)
+* rsync oder scp ... geht mit livedrive
 
-[git](git-spicker.md)
+* Achtung: aud livedrive besser keine .ld dateien erzeugen!
 
-[tmux](tmux.md)
+* unter /Volumens/ findet man alle externen laufwerke
 
-[lima](lima.md)
+* Neue Tools  bzw. alte checken/vertiefen:
 
-[vim](vim.md)
+  - locate
 
-[lftp](ftp.md)
+  - !! !$
 
-[RegEx](regex.md)
+  - grep 
 
-##   Julia
+  - sed 
 
-[Julia](julia.md)
+  - awk
 
-##   Python
+  - printf
 
-[Python](python.md)
-[Python-Module](python-module.md)
-[Codon](codon.md)
+  - jobs
 
-#    Installiert/doc
+  - tig (brew) the git guru
 
-- rsync oder scp ... geht mit livedrive
+  - time (time cmd)
 
-- Achtung: aud livedrive besser keine .ld dateien erzeugen!
+  - cal 1984
 
-- unter /Volumens/ findet man alle externen laufwerke
+  - thefuck
 
-- vim plugs in vim dokumentiert
+  - j autojump auch zoxide nicht benutzt
 
-- neu bzw checken:
+  - jq falls mal json
 
-    - locate
-    - !! !$
-    - grep 
-    - sed 
-    - awk
-    - printf
-    - jobs
-    - tig (brew) the git guru
-    - time (time cmd)
-    - cal 1984
-    - thefuck
-    - j autojump auch zoxide nicht benutzt
-    - jq falls mal json
-    - direnv
-    - nohup
-    - RAR (winrar inkl zip)
-    - cd - anders als pwd
-    - mutt -configuration mit web.de- geht
+  - direnv
 
-- Gruppe der standart cli tools:
+  - nohup
 
-    ac
-    who
-    which/where(is)
-    scp
-    rsync
-    ps (juliaup)
-    ripgrep rg -tmd vim
-    exa
-    bat
-    fd
-    tldr
-    dust
-    hyperfine
-    eza ersetzt exa
-    mdless
-    glow 
-    walk nnn ranger 
-    cheat
-    fzf
-    autojump j
-    p7zip
-    the fuck
-    wget
-    mc
-    speedtest
-    tree
-    atuin
-    fig
-    vivid
-    antibody
-    mosh
-    coreutils
-    fast-theme
-    conda
-    juliaup
-    cmatrix
-    ctag?
-    git 
-    gh 
-    hub
+  - RAR (winrar inkl zip)
 
-- Python
+  - cd - anders als pwd
 
-    pylint
-    mypy
-    pandoc
-    black
-    flake8
-    isort
-    speedtest-cli
-    pypy3
-    ipython
-    numba
-    cython
-    rich
-    ipdb
-    ipwidgets?
-    matplotlib
-    pandas
-    numpy
-    tqdm
-    friendly
-    watermark
-    jedi
-    pylint
-    pygments
-    pynvim
-    colorama
-    icecream
-    pyfzf
-    PySnooper ...neues tool wie trace ...
-    ipyparallel?
-    IPythonBell?
-    julia (Pythonmodul!)
-    jupytext
+  - mutt -configuration mit web.de- geht
 
-- add julia
+## Gruppe der Standart CLI Tools:
+
+      ac
+      who
+      which/where(is)
+      scp
+      rsync
+      ps (juliaup)
+      ripgrep rg -tmd vim
+      exa
+      bat
+      fd
+      tldr
+      dust
+      hyperfine
+      eza ersetzt exa
+      mdless
+      glow 
+      walk nnn ranger 
+      cheat
+      fzf
+      autojump j
+      p7zip
+      the fuck
+      wget
+      mc
+      speedtest
+      tree
+      atuin
+      fig
+      vivid
+      antibody
+      mosh
+      coreutils
+      fast-theme
+      conda
+      juliaup
+      cmatrix
+      ctag?
+      git 
+      gh 
+      hub
+
+
+
+
+## Python
+
+pylint
+mypy
+pandoc
+black
+flake8
+isort
+
+- speedtest-cli
+- ​      pypy3
+- ​      ipython
+- ​      numba
+- ​      cython
+- ​      rich
+- ​      ipdb
+- ​      ipwidgets?
+- ​      matplotlib
+- ​      pandas
+- ​      numpy
+- ​      tqdm
+- ​      friendly
+- ​      watermark
+- ​      jedi
+- ​      pylint
+- ​      pygments
+- ​      pynvim
+- ​      colorama
+- ​      icecream
+- ​      pyfzf
+- ​      PySnooper ...neues tool wie trace ...
+- ​      ipyparallel?
+- ​      IPythonBell?
+- ​      julia (Pythonmodul!)
+- ​      jupytext
+
+
+## (add) Julia
 
     Revise 
     BenchmarkTools 
@@ -159,19 +153,30 @@ Mein **'Hobby'** (CLI orientiertes Unix):
     ReplMaker 
     PyCall
 
-#    VimWiki & MarkDown 
+##    VimWiki & MarkDown 
 
 `]] [[ } { gg G` ... Bewegen
+
 `Tab cursor-r S-Tab` fold & unfold Header
+
 `<CR>` öffnen 'link'
+
 versehendliches `<cr>` ... `cursor & u`
+
 `Grad (°) und 'é'` für Akzent (coding)
+
 `:br bf ls` ... Buffer `(b1 234...)`
+
 `<leader>ww (,ww) ws` ... VimWiki starten
+
 `:w oder :wa` nicht vergessen!
+
 `:Toch` ... Navigieren `(c-w w)`
+
 `stern xyz stern` italic
+
 `dstern xyz dstern` bold
+
 `tstern xyz tstern` bold italic ... usw.
 
 

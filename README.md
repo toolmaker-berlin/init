@@ -8,6 +8,8 @@ Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spi
 #### VIM/NVIM/VIFM
 #### PYTHON
 #### JULIA
+
 > Retirement is: “Not having the need to work for money. Plus, the freedom to start and stop doing anything with no consequences.”
 
+> “I don’t think there is one size that fits all” — Steve Ballmer
  

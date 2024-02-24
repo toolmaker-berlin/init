@@ -1,7 +1,7 @@
 [Zurück](index.md)
 
 # GIT Basics (FEHLER! Überarbeiten!)
-
+> mit der a option beim commit scheint kein add mehr inkludiert. aufklären
 `cd ~/github`      
     *Mein allgemeines git Verzeichnis, weil ich das so mache und gut ist.*
 

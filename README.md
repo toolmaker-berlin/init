@@ -22,7 +22,9 @@ Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spi
 ### Was es so braucht
 
 > “I don’t think there is one size that fits all” — Steve Ballmer
- 
+
+Meine "Toolbox" für CLI zentriertes arbeiten mit der shell, vim, vim-filemanager und programmieren in Python und Julia:
+
 * ZSH, Vifm, FTP, SSH usw. (Shell) 
 * Vim/NeoVim (VimWiki & Editor)
 * Julia (Repl, ReplMaker, Debug, etc.) 

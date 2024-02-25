@@ -23,10 +23,6 @@ Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spi
 
 > “I don’t think there is one size that fits all” — Steve Ballmer
  
-#### Toolbox 
-
-Meine **'Toolbox'** (aktuelles Konzept CLI orientiertes Unix) besteht aus:
-
 * ZSH, Vifm, FTP, SSH usw. (Shell) 
 * Vim/NeoVim (VimWiki & Editor)
 * Julia (Repl, ReplMaker, Debug, etc.) 
@@ -46,8 +42,8 @@ Meine **'Toolbox'** (aktuelles Konzept CLI orientiertes Unix) besteht aus:
   - lima
 
 * Offen:
-  - rsync
-  - scp
+ - rsync
+ - scp
  
 * Neuere Tools checken/vertiefen:
   - locate

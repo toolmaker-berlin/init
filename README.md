@@ -42,8 +42,8 @@ Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spi
   - lima
 
 * Offen:
- - rsync
- - scp
+  - rsync
+  - scp
  
 * Neuere Tools checken/vertiefen:
   - locate

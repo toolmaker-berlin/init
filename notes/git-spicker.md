@@ -1,8 +1,8 @@
 Stand 27. Februar 2024
 
 # GIT Basics
-`cd ~/github`      
-    *Mein allgemeines git Verzeichnis, weil ich das so mache und gut ist.*
+`cd ~/github` bzw. `cd ~/dev/github`   
+    *Mein allgemeines git Verzeichnis, weil ich das so mache und gut ist.* Mit vifm: HG Hg Xg :load und :update beachten!
 
 `git clone git@github.com:toolmaker-berlin/test` (repo-name)
     *Von **"test"** auf GitHub ins akt. Verzeichnis clonen*

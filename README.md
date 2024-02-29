@@ -44,8 +44,9 @@ Meine "Toolbox" für CLI zentriertes Arbeiten in der shell, vim, filemanager und
   - lima
 
 * Offen:
-  - rsync
-  - scp
+  - rsync - remode sync für Backups
+  - scp - secure copy für meine Server
+  - frogmouth (glow, mdv, mdless, grip) - Markdown
  
 * Neuere Tools checken/vertiefen:
   - locate

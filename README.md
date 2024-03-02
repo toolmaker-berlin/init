@@ -142,7 +142,7 @@ Meine "Toolbox" für CLI zentriertes Arbeiten in der shell, vim, filemanager und
   - IPythonBell?
   - julia (Pythonmodul!)
   - jupytext
-  - pyinputplus
+  - pyinputplus - Inputroutinen (ok)
 
 
 * Julia Module (add)

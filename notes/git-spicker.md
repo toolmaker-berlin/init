@@ -2,13 +2,13 @@ Stand 4. März 2024
 
 # GIT Basics
 `cd ~/github` bzw. `cd ~/dev/github`   
-    *Mein allgemeines git Verzeichnis, weil ich das so mache und gut ist.* Mit vifm: HG Hg Xg :load und :update beachten!
+    *Mein allgemeines git Verzeichnis, weil **ich** das so mache und gut ist.* Mit vifm: HG Hg Xg :load und :update beachten!
 
 `git clone git@github.com:toolmaker-berlin/test` (repo-name)
     *Von **"test"** auf GitHub ins akt. Verzeichnis clonen*
 
 `mkdir projekt; cd projekt ($_)`
-    *Neues repro verzeichnis anlegen*
+    *Neues repo Verzeichnis anlegen*
 
 `ed README.md`
     *Beschreibung in MD-Formatierung anlegen*
@@ -56,10 +56,12 @@ Stand 4. März 2024
 # Diff, Merge, Branches fehlen! 
 
 `git pull --rebase`
-    *Funktioniert meistens im Konfliktfall*
+*Funktioniert meistens im Konfliktfall*
 
-`git push 
-git branch testfall
+`git push`
+
+`git branch testfall`
+
 git checkout testfall
 git checkout -b testfall
 git switch -c testfall

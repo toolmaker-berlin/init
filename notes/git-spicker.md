@@ -1,4 +1,4 @@
-Stand 27. Februar 2024
+Stand 4. März 2024
 
 # GIT Basics
 `cd ~/github` bzw. `cd ~/dev/github`   
@@ -58,7 +58,7 @@ Stand 27. Februar 2024
 `git pull --rebase`
     *Funktioniert meistens im Konfliktfall*
 
-`git push
+`git push 
 git branch testfall
 git checkout testfall
 git checkout -b testfall
@@ -74,27 +74,26 @@ git commit -am "Testfall branch zusammengeführt"
 git push`
 
 
-# wenn merge automatisch nicht klappt ..
+# Wenn merge nicht klappt
 
 `git merge testfall`
 `git diff`
-    *edit datei; git markiert den Konflikt mit <<<<<<< und >>>>>>> (7x)*
+
+*edit datei -> git markiert den Konflikt mit <<<<<<< und >>>>>>> (7x)*
     
 **oder:**
 
-`git mergetool
-git commit -am "Behoben"
-git push`
+`git mergetool -> git commit -am "Behoben" -> git push`
 
 `git mergetool --tool-help`
 `git help config` (wenn dauerhaft)
 `git mergetool --tool=vimdiff1` (oder)
-`git mergetool -t nvimdiff1
-git config --global diff.tool vimdiff
-git config --global merge.tool nvimdiff1`
+`git mergetool -t nvimdiff1`
+`git config --global diff.tool vimdiff`
+`git config --global merge.tool nvimdiff1`
 `git mergetool` (ohne parameter reicht jetzt)
  
-git rebase besser nnicht verwenden merge benutzen!
+*git rebase besser nicht verwenden merge benutzen!*
 
 # Sonstige Schritte
 

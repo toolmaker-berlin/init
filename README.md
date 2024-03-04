@@ -1,10 +1,13 @@
 ### INIT - Alles was ich so zum (Neu-) Start brauche
 Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spickzettel, rudimentären Configs und Checklisten zugreifen kann. Natürlich kann und darf ***jeder*** darin stöbern und für sich nützliches verwenden.
 
-#### NOTES (Kurzanleitungen, Checklisten, Spickzettel, Links, usw.)
+#### NOTES (Kurzanleitungen, Checklisten, Essays, Links, usw.)
 - erstens
 - zweitens
-- drittens
+- Mobil First, Cloud Nativ, Provider Indepent (Essay)
+- Toolbox/Toolbelt (Essay)
+- Fuhrpark (Blog)
+
 
 #### CONFIGS (Resouce-Dateien, Init-Dateien)
 - zsh

@@ -16,7 +16,7 @@ Stand 4. März 2024
 
 # Mit GITHUB arbeiten
 
-`hub create -p` 
+`hub create -p` (Bisher einziges nützliche HUB-CMD)
     *create -p PRIVAT (geht auch nachträglich)*
 
 `git add * oder .` 
@@ -41,16 +41,18 @@ Stand 4. März 2024
     **NICHT VERWENDEN** *- hier hilft hub nur 'lokal'*
 
 
-# HUB ersetzt GIT
+# HUB ersetzt GIT (NICHT)
 
-*.... aber eigendlich ist nur HUB CREATE richtig nützlich -> weiter mit gh*
+*Eigendlich ist nur HUB CREATE richtig nützlich -> weiter mit gh*
 
-`gh repo create DEMO -p` (siehe oben)
+`gh repo create DEMO -p` (siehe oben - also kein HUB)
+
 `gh repo list`
-`gh repo clone toolmaker-berlin/lernen
-`
-`sudo rm -r demo` 
-    *ohne SUDO geht es nicht. Git paßt auf!*
+
+`gh repo clone toolmaker-berlin/lernen`
+
+
+`sudo rm -r demo` *ohne SUDO geht es nicht. Git paßt auf!*
 
 
 # Diff, Merge, Branches fehlen! 

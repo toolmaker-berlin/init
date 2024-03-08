@@ -124,7 +124,7 @@ git push
 
 `mergetool [n]vimdiff[1-3]` *im Editor dann ...*
  
-`dp`             
+`dp`
 *diffput: puts changes under the cursor into the other file making them identical (thus removing the diff).*
 
 `do`

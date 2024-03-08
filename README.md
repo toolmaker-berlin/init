@@ -1,15 +1,36 @@
-### INIT - Alles was ich so zum (Neu-) Start brauche
-Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spickzettel, rudimentären Configs und Checklisten zugreifen kann. Natürlich kann und darf ***jeder*** darin stöbern und für sich nützliches verwenden.
+# INIT
 
-#### NOTES (Kurzanleitungen, Checklisten, Essays, Links, usw.)
+Stand 8. März 2024
+
+Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spickzettel, rudimentären Configs und Checklisten zugreifen kann. Natürlich kann und darf ***jeder*** darin stöbern und für sich nützliches verwenden. 
+
+> “I don’t think there is one size that fits all” — Steve Ballmer
+
+***Meine "Toolbox" für CLI zentriertes Arbeiten in der shell, mit vim, filemanager, Python und Julia:***
+
+* ZSH, Vifm, FTP, SSH usw. (Shell) 
+* Vim/NeoVim (Editor)
+* Julia (Repl, ReplMaker, Debug, etc.) 
+* IPython/PyPy (Codon, Numba/Cython etc.)
+* Github (git/gh/hub)
+* Tmux (mobil - local iTerm2)
+* Docker/Lima 
+
+***Im Einzelfall auch VSC und Jupyter Lab local verwenden!***
+
+# Was es so braucht
+
+## NOTES (Kurzanleitungen, Checklisten, Essays, Links, usw.)
+
 - erstens
 - zweitens
-- Mobil First, Cloud Nativ, Provider Indepent (Essay)
-- Toolbox/Toolbelt (Essay)
-- Fuhrpark (Blog)
+- drittens
+- offen: Mobil First, Cloud Nativ, Provider Indepent (Essay)
+- offen: Toolbox/Toolbelt (Essay)
+- offen: Fuhrpark (Blog)
 
+## CONFIGS (Resouce-Dateien, Init-Dateien)
 
-#### CONFIGS (Resouce-Dateien, Init-Dateien)
 - zsh
 - vim
 - vifm
@@ -17,61 +38,52 @@ Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spi
 - ipython
 - julia
 
-#### TEMPLATES (Programmbeispiele, etc.)
+## TEMPLATES (Programmbeispiele, etc.)
+
 - Python
 - Julia
 - Jupyter
 
-### Was es so braucht
+# Übersicht
 
-> “I don’t think there is one size that fits all” — Steve Ballmer
+## Werkzeuge
 
-Meine "Toolbox" für CLI zentriertes Arbeiten in der shell, vim, filemanager und programmieren mit Python und Julia:
+  - vifm (VIM orientierter Filemanager)
+  - vim/nvim (Editor)
+  - ipython (Interaktives Python - Jupyter)
+  - julia (Programmiersprache)
+  - tmux (Terminal Multiplexer)
+  - Lima (Docker VM für MacOS)
 
-* ZSH, Vifm, FTP, SSH usw. (Shell) 
-* Vim/NeoVim (VimWiki & Editor)
-* Julia (Repl, ReplMaker, Debug, etc.) 
-* IPython/PyPy, Codon, Numba/Cython
-* Github (git/gh/hub)
-* Tmux (mobil - local iTerm2)
-* Docker/Lima 
+## Offen (testen)
 
-***Im Einzelfall auch VSC und Jupyter Lab local verwenden!***
-
-* Werkzeuge
-  - vifm
-  - vim/nvim
-  - ipython
-  - julia
-  - tmux
-  - lima
-
-* Offen:
   - rsync - remode sync für Backups
   - scp - secure copy für meine Server
   - frogmouth (glow, mdv, mdless, grip) - Markdown
  
-* Neuere Tools checken/vertiefen:
+## Neuere Tools checken/vertiefen:
+
   - locate
-  - !! !$
+  - `!!` und `!$`
   - grep 
   - sed 
   - awk
-  - printf
+  - printf (besseres ECHO)
   - jobs
-  - tig (brew) the git guru
+  - `tig` (mit brew = the git guru)
   - time (time cmd)
-  - cal 1984
+  - `cal 1984`cli Kalender
   - thefuck
-  - j autojump auch zoxide nicht benutzt
+  - j autojump (zoxide nicht benutzt!)
   - jq falls mal json
   - direnv
   - nohup
-  - RAR (winrar inkl zip)
-  - cd - anders als pwd
-  - mutt -configuration mit web.de- geht
+  - `rar` (winrar inkl zip)
+  - `cd -` cd anders als pwd
+  - `mutt` (E-Mail, configuration mit web.de - geht ok)
     
-* Standart CLI Tools:
+## Standart CLI Tools
+
   - ac
   - who
   - which/where(is)
@@ -112,7 +124,8 @@ Meine "Toolbox" für CLI zentriertes Arbeiten in der shell, vim, filemanager und
   - gh 
   - hub
 
-* Python
+## Python
+
   - pylint
   - mypy
   - pandoc
@@ -131,7 +144,7 @@ Meine "Toolbox" für CLI zentriertes Arbeiten in der shell, vim, filemanager und
   - pandas
   - numpy
   - tqdm
-  - friendly
+  - friendly (NICHT mehr verwenden)
   - watermark
   - jedi
   - pylint
@@ -147,8 +160,7 @@ Meine "Toolbox" für CLI zentriertes Arbeiten in der shell, vim, filemanager und
   - jupytext
   - pyinputplus - Inputroutinen (ok)
 
-
-* Julia Module (add)
+## Julia Module (add)
 
   - Revise 
   - BenchmarkTools 
@@ -164,8 +176,7 @@ Meine "Toolbox" für CLI zentriertes Arbeiten in der shell, vim, filemanager und
   - PyPlot (?)
   - Term (?)
 
-
-##### Ende #####
+# Ende
 
 > Retirement is: “Not having the need to work for money. Plus, the freedom to start and stop doing anything with no consequences.”
 

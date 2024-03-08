@@ -20,15 +20,6 @@ Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spi
 
 # Was es so braucht
 
-## NOTES (Kurzanleitungen, Checklisten, Essays, Links, usw.)
-
-- erstens
-- zweitens
-- drittens
-- offen: Mobil First, Cloud Nativ, Provider Indepent (Essay)
-- offen: Toolbox/Toolbelt (Essay)
-- offen: Fuhrpark (Blog)
-
 ## CONFIGS (Resouce-Dateien, Init-Dateien)
 
 - zsh
@@ -37,6 +28,15 @@ Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spi
 - tmux
 - ipython
 - julia
+
+## NOTES (Kurzanleitungen, Checklisten, Essays, usw.)
+
+- erstens
+- zweitens
+- drittens
+- offen: Mobil First, Cloud Nativ, Provider Indepent (Essay)
+- offen: Toolbox/Toolbelt (Essay)
+- offen: Fuhrpark (Blog)
 
 ## TEMPLATES (Programmbeispiele, etc.)
 

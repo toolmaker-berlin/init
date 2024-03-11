@@ -159,6 +159,7 @@ Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spi
   - julia (Pythonmodul!)
   - jupytext
   - pyinputplus - Inputroutinen (ok)
+  - python -m textual
 
 ## Julia Module (add)
 
@@ -175,6 +176,45 @@ Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spi
   - Distributions
   - PyPlot (?)
   - Term (?)
+
+TerminalUI.jl
+
+Julia PackageMirrors
+
+TerminalExtensions.jl
+
+JuliaPackageMirrors
+
+TermWin.jl
+
+kdheepak
+
+TERMIOS.JI
+
+m-j-w
+
+TerminalGraphics.jl
+
+foldfelis
+
+Terming.jl
+
+Keno
+
+Terminals.jl
+
+antimon2
+
+EchoREPL.jl
+
+FedeClaudi
+
+Term.jl
+
+Keno
+
+NCurses.jl
+
 
 # Ende
 

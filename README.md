@@ -1,22 +1,24 @@
 # INIT
 
-Stand 8. März 2024
+Stand 11. März 2024
 
-Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spickzettel, rudimentären Configs und Checklisten zugreifen kann. Natürlich kann und darf ***jeder*** darin stöbern und für sich nützliches verwenden. 
+Oftmals vergisst man im Laufe der Zeit wie man bestimmte Probleme in der Vergangenheit gelöst hat oder welche Schritte notwendig waren um etwas richtig zu installieren oder zu konfigurieren. Insbesondere bei selten oder lange nicht benutzten Werkzeugen kann es nützlich sein eine Sammlung grundsätzlicher Informationen zur Hand zu haben.
+
+Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spickzettel, rudimentären Configs und Listen zugreifen kann. Natürlich kann und darf ***jeder*** darin stöbern und für sich nützliches verwenden ***(ohne Garantie)***. 
 
 > “I don’t think there is one size that fits all” — Steve Ballmer
 
-***Meine "Toolbox" für CLI zentriertes Arbeiten in der shell, mit vim, filemanager, Python und Julia:***
+***Mein 'Toolbelt' für Shell zentriertes Arbeiten mit Vim, Filemanager, Python und Julia:***
 
 * ZSH, Vifm, FTP, SSH usw. (Shell) 
 * Vim/NeoVim (Editor)
 * Julia (Repl, ReplMaker, Debug, etc.) 
 * IPython/PyPy (Codon, Numba/Cython etc.)
-* Github (git/gh/hub)
+* Github (git/gh/~~hub~~)
 * Tmux (mobil - local iTerm2)
 * Docker/Lima 
 
-***Im Einzelfall auch VSC und Jupyter Lab local verwenden!***
+Im Einzelfall auch VSC und Jupyter Lab local verwenden!
 
 # Was es so braucht
 
@@ -31,9 +33,7 @@ Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spi
 
 ## NOTES (Kurzanleitungen, Checklisten, Essays, usw.)
 
-- erstens
-- zweitens
-- drittens
+- git-spicker
 - offen: Mobil First, Cloud Nativ, Provider Indepent (Essay)
 - offen: Toolbox/Toolbelt (Essay)
 - offen: Fuhrpark (Blog)
@@ -53,44 +53,44 @@ Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spi
   - ipython (Interaktives Python - Jupyter)
   - julia (Programmiersprache)
   - tmux (Terminal Multiplexer)
-  - Lima (Docker VM für MacOS)
+  - lima (Docker VM für MacOS)
 
-## Offen (testen)
+## Offen (noch testen)
 
-  - rsync - remode sync für Backups
-  - scp - secure copy für meine Server
-  - frogmouth (glow, mdv, mdless, grip) - Markdown
+  - `rsync` - remode sync für Backups
+  - `scp` - secure copy für meine Server
+  - `frogmouth` (glow, mdv, mdless, grip) - Markdown
  
-## Neuere Tools checken/vertiefen:
+## Tools checken/vertiefen:
 
-  - locate
-  - `!!` und `!$`
-  - grep 
-  - sed 
-  - awk
-  - printf (besseres ECHO)
-  - jobs
-  - `tig` (mit brew = the git guru)
-  - time (time cmd)
-  - `cal 1984`cli Kalender
-  - thefuck
-  - j autojump (zoxide nicht benutzt!)
-  - jq falls mal json
-  - direnv
-  - nohup
-  - `rar` (winrar inkl zip)
-  - `cd -` cd anders als pwd
-  - `mutt` (E-Mail, configuration mit web.de - geht ok)
+  - `locate` ...
+  - `!!` und `!$` - Letztes CMD bzw. letzte Parameter 
+  - `grep` - Zeichenketten in File(s) finden 
+  - `sed`- Stream Editor (mächtig) 
+  - `awk`- ...
+  - `printf` - besseres ECHO
+  - `jobs`- Liste aktueller Jobs
+  - `tig` - GIT Tool (mit brew => the git guru)
+  - `time` - time cmd (Zeitmessung)
+  - `cal 1984` - cli Kalender
+  - `fuck` oder `f` oder `fu` - 'thefuck' gegen Tipfehler
+  - `j` autojump - Directory Hilfe (zoxide nicht benutzt!)
+  - `jq` - Listet Json (falls mal json)
+  - `direnv` ...
+  - `nohup` ...
+  - `rar` - winrar inkl. zip
+  - `cd -` - cd zum letzten benutzten Ordner
+  - `mutt` - E-Mail (configuration mit web.de geht ok)
     
-## Standart CLI Tools
+## CLI Tools
 
-  - ac
-  - who
-  - which/where(is)
-  - scp
-  - rsync
-  - ps (juliaup)
-  - ripgrep rg -tmd vim
+  - `ac` - Statistik (wie lange Verbunden)
+  - `who` - Wer ist angemeldet
+  - `which` oder `where[is]` - Programm suchen
+  - `scp` - Secure Copy via Netzwerk
+  - `rsync` - 
+  - `ps` (für juliaup)
+  - `ripgrep` z.B. `rg -tmd vim'`(besseres grep)
   - exa
   - bat
   - fd
@@ -119,10 +119,17 @@ Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spi
   - conda
   - juliaup
   - cmatrix
-  - ctag (?)
+  - ctag (primär für C & Vim)
   - git 
   - gh 
   - hub
+
+## Selbstdefinierte Funktionen
+
+- load (vifm) - Gitverzeichnis mit GitHub abgleichen (laden)
+- update (vifm) - GitHub mit Gitverzeichnis abgleichen (speichern)
+- saveconfig (vifm) - Konfigurationsdateien und User Homeverzeichnis nach iCloud sichern
+- save (shell) - wie saveconfig
 
 ## Python
 
@@ -163,58 +170,43 @@ Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spi
 
 ## Julia Module (add)
 
-  - Revise 
-  - BenchmarkTools 
-  - OhMyREPL 
-  - OffsetArrays 
-  - Crayons 
-  - IJulia 
-  - Debugger
-  - Infiltrator 
-  - ReplMaker 
-  - PyCall
-  - Distributions
-  - PyPlot (?)
-  - Term (?)
+  - Revise - Autoreload *.jl
+  - BenchmarkTools - Benchmarks und Timing
+  - OhMyREPL - REPL aufgebohrt
+  - OffsetArrays - Arrays 0...n oder anderen Index
+  - Crayons - Für Farben
+  - IJulia - Für Jupyter Notebooks / Lab
+  - Debugger - Fehlersuche
+  - Infiltrator - Fehlersuche
+  - ReplMaker - Eigene REPL definieren
+  - PyCall - Schnittstelle zu Python
+  - Distributions - MultiCore Unterstützung
+  - PyPlot - Plot-Utilities (falls nötig)
 
-TerminalUI.jl
+## Julia Terminal Tools (PRÜFEN)
 
-Julia PackageMirrors
+- TerminalUI.jl (Julia PackageMirrors) ...
+- TerminalExtensions.jl (JuliaPackageMirrors) ...
+- TermWin.jl (JuliaPackageMirrors) ...
+- TERMIOS.JI (kdheepak) ...
+- TerminalGraphics.jl (m-j-w) - JPG etc.
+- Terming.jl (foldfelis) ...
+- Terminals.jl(Keno) ...
+- EchoREPL.jl (antimon2) - REPL Demo
+- Term.jl (FedeClaudi) - Wie RICH plus Input
+- NCurses.jl (Keno) - NCurses Interface
 
-TerminalExtensions.jl
+## Nützliches für Apple (MacOS und iOS)
 
-JuliaPackageMirrors
+- One Markdown - Bester Markdown Editor (Mac)
+- iTerm2 - Bestes Terminalprogramm (Mac)
+- Blink - Terminalprogramm mit MOSH (ios)
+- UpNote - Notizen (alle Platformen)
+- usw.
 
-TermWin.jl
+## Nützliches für Android
 
-kdheepak
-
-TERMIOS.JI
-
-m-j-w
-
-TerminalGraphics.jl
-
-foldfelis
-
-Terming.jl
-
-Keno
-
-Terminals.jl
-
-antimon2
-
-EchoREPL.jl
-
-FedeClaudi
-
-Term.jl
-
-Keno
-
-NCurses.jl
-
+- Userland - Linux
 
 # Ende
 

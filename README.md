@@ -8,19 +8,19 @@ Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spi
 
 > “I don’t think there is one size that fits all” — Steve Ballmer
 
-***Mein 'Toolbelt' für ein Shell zentriertes Arbeiten - überwiegend via SSH - mit Vim, (Vim-)Filemanager, Python und Julia:***
+***Mein 'Werkzeugkasten' für ein Shell zentriertes Arbeiten - überwiegend via SSH - mit Vim, (Vim-)Filemanager, Python und Julia:***
 
 * ZSH, Vifm, FTP, SSH usw. (Shell) 
 * Vim/NeoVim (Editor)
 * Julia (Repl, ReplMaker, Debug, etc.) 
 * IPython/PyPy (Codon, Numba/Cython etc.)
 * Github (git/gh/~~hub~~)
-* Tmux (mobil - local iTerm2)
+* Tmux (mobil - lokal iTerm2)
 * Docker/Lima 
 
-Im Einzelfall auch VSC und Jupyter Lab local verwenden!
+Im Einzelfall auch VSC und Jupyter Lab lokal verwenden!
 
-# Was es so braucht
+# Worum es geht
 
 ## CONFIGS (Resouce-Dateien, Init-Dateien)
 
@@ -79,7 +79,7 @@ Im Einzelfall auch VSC und Jupyter Lab local verwenden!
   - `direnv` ...
   - `nohup` ...
   - `rar` - winrar inkl. zip
-  - `cd -` - cd zum letzten benutzten Ordner
+  - `cd -` - cd zum letzten benutzten Ordner (nicht `cd ..`)
   - `mutt` - E-Mail (configuration mit web.de geht ok)
     
 ## CLI Tools
@@ -88,9 +88,9 @@ Im Einzelfall auch VSC und Jupyter Lab local verwenden!
   - `who` - Wer ist angemeldet
   - `which` oder `where[is]` - Programm suchen
   - `scp` - Secure Copy via Netzwerk
-  - `rsync` - 
+  - `rsync` - Remote Sync u.a. Backups
   - `ps` (für juliaup)
-  - `ripgrep` z.B. `rg -tmd vim'`(besseres grep)
+  - `ripgrep` z.B. `rg -tmd vim`(besseres grep)
   - exa
   - bat
   - fd
@@ -99,10 +99,9 @@ Im Einzelfall auch VSC und Jupyter Lab local verwenden!
   - hyperfine
   - eza ersetzt exa
   - mdless
-  - (glow walk nnn ranger) jetzt vifm 
+  - `vifm` (glow/walk/nnn/ranger) - Filemanager (x,xg,xh,xxx)
   - cheat
   - fzf
-  - autojump j
   - p7zip
   - the fuck
   - wget
@@ -120,9 +119,9 @@ Im Einzelfall auch VSC und Jupyter Lab local verwenden!
   - juliaup
   - cmatrix
   - ctag (primär für C & Vim)
-  - git 
-  - gh 
-  - hub
+  - `git` - Klassik GIT 
+  - `gh` - Git Tool 
+  - `hub` - Git Tool (nicht mehr benutzen sondern gh)
 
 ## Selbstdefinierte Funktionen
 
@@ -141,31 +140,30 @@ Im Einzelfall auch VSC und Jupyter Lab local verwenden!
 - Pjiangmiao/auto-pairs (kann entfallen)
 - preservim/nerdtree - Sex, Tex, Vex oder NEU: vifm
 - Yggdroot/indentLine - Vertikale Tabs: <M-i> (?)
-- itchyny/lightline.vim'    " Statuszeile geht jetzt gut
-- benmills/vimux'
-- sbdchd/neoformat'
-- jistr/vim-nerdtree-tabs (deaktiviert)
-- blueyed/vim-diminactive'
-- frazrepo/vim-rainbow'
-- tpope/vim-commentary'
-- NLKNguyen/papercolor-theme'
-- kyoz/purify', { 'rtp': 'vim' }
-- JuliaEditorSupport/julia-vim'
-- airblade/vim-gitgutter'
-- airblade/vim-gitgutter (deaktiviert)
-- dylanaraps/fff.vim' (kann entfallen)
-- lifepillar/vim-mucomplete (deaktiviert)
-- nvim-lua/plenary.nvim' (deaktiviert)
-- "Plug 'nvim-lua/popup.nvim (deaktiviert)
-- "Plug 'ThePrimeagen/harpoon (deaktiviert)
+- itchyny/lightline.vim - Statuszeile
+- benmills/vimux ...
+- sbdchd/neoformat ...
+- jistr/vim-nerdtree-tabs (deaktiviert NEU: vifm)
+- blueyed/vim-diminactive - Fenster dimmen (deaktiviert MD)
+- frazrepo/vim-rainbow - rainbow Indent/Klammern
+- tpope/vim-commentary - Block-Kommentar
+- NLKNguyen/papercolor-theme - Theme (unbenutzt)
+- kyoz/purify - ... { 'rtp': 'vim' } (?)
+- JuliaEditorSupport/julia-vim' - FÜR JULIA OK
+- airblade/vim-gitgutter ... (deaktiviert)
+- dylanaraps/fff.vim' - Filemanager (kann entfallen)
+- lifepillar/vim-mucomplete ... (deaktiviert)
+- nvim-lua/plenary.nvim' ... (deaktiviert)
+- nvim-lua/popup.nvim ... (deaktiviert)
+- ThePrimeagen/harpoon - Suchen (deaktiviert)
 - godlygeek/tabular ...
 - ixru/nvim-markdown - Markdown (auch als Viewer)
-- "Plug 'preservim/vim-markdown (deaktiviert)
-- "Plug 'vimwiki/vimwiki' (deaktiviert)
+- preservim/vim-markdown - Markdown (deaktiviert)
+- vimwiki/vimwiki - Wiki (deaktiviert)
 - vifm/vifm.vim - MEIN bester Filemanager
-- "Plug 'sheerun/vim-polyglot (deaktiviert)  " scheint gerade f√ºr python nix extra zu
-- "Plug 'greghor/vim-pyShell (deaktiviert)     " Kompliziert
-- "Plug 'kassio/neoterm (deaktiviert)         " terminal f√ºr IPython und <C-z> benutzen 
+- sheerun/vim-polyglot - u.a. Python (deaktiviert)
+- greghor/vim-pyShell (deaktiviert - Zu Kompliziert)
+- kassio/neoterm (deaktiviert - Terminal oder <C-z> benutzen) 
 
 ## Python
 
@@ -243,6 +241,25 @@ Im Einzelfall auch VSC und Jupyter Lab local verwenden!
 ## Nützliches für Android
 
 - Userland - Linux
+
+## Visual Studio Code (Plugins)
+
+## Jupyter Lab (Plugins)
+
+## Standart Movement/Keys (Mac)
+
+- Cursor, BS, FN-BS, Enter (Normal)
+- CMD Cursor -> BOF/EOF, POS1/END (je App)
+- Option Cursor -> next/last-Word, PageUp/PageDN (?)
+- FN Cursor -> PageUp/PageDown, BOF/EOF
+- Control Cursor next/last-Desktop, Exposé/App-Fenster 
+- Funktion F1 bis F12 mit FN
+- Spezial [ ] Option 5 und 6
+- Spezial { } Option 8 und 9
+- Spezial ~ Option n
+- Spezial µ Option m
+- Spezial | Option 7
+- Spezial \ Shift Option 7
 
 # Ende
 

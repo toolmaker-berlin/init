@@ -1,14 +1,14 @@
 # INIT
 
-Stand 11. März 2024
+Stand 12. März 2024
 
-Oftmals vergisst man im Laufe der Zeit wie man bestimmte Probleme in der Vergangenheit gelöst hat oder welche Schritte notwendig waren um etwas richtig zu installieren oder zu konfigurieren. Insbesondere bei selten oder lange nicht benutzten Werkzeugen kann es nützlich sein eine Sammlung grundsätzlicher Informationen zur Hand zu haben.
+Oftmals vergisst man im Laufe der Zeit wie man bestimmte Probleme in der Vergangenheit gelöst hat oder welche Schritte notwendig waren um etwas richtig zu installieren und zu konfigurieren. Insbesondere bei selten oder lange nicht benutzten Werkzeugen kann es nützlich sein eine Sammlung grundsätzlicher Informationen zur Hand zu haben.
 
 Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spickzettel, rudimentären Configs und Listen zugreifen kann. Natürlich kann und darf ***jeder*** darin stöbern und für sich nützliches verwenden ***(ohne Garantie)***. 
 
 > “I don’t think there is one size that fits all” — Steve Ballmer
 
-***Mein 'Toolbelt' für Shell zentriertes Arbeiten mit Vim, Filemanager, Python und Julia:***
+***Mein 'Toolbelt' für ein Shell zentriertes Arbeiten - überwiegend via SSH - mit Vim, (Vim-)Filemanager, Python und Julia:***
 
 * ZSH, Vifm, FTP, SSH usw. (Shell) 
 * Vim/NeoVim (Editor)
@@ -130,6 +130,42 @@ Im Einzelfall auch VSC und Jupyter Lab local verwenden!
 - update (vifm) - GitHub mit Gitverzeichnis abgleichen (speichern)
 - saveconfig (vifm) - Konfigurationsdateien und User Homeverzeichnis nach iCloud sichern
 - save (shell) - wie saveconfig
+
+## Vim/NeoVim Plugins
+
+- Shougo/deoplete.nvim' (deaktiviert)
+- zchee/deoplete-jedi (deaktiviert - Doppelung!)
+- python-mode/python-mode (deaktiviert)
+- junegunn/vim-plug (Manager)
+- kshenoy/vim-signature ...
+- Pjiangmiao/auto-pairs (kann entfallen)
+- preservim/nerdtree - Sex, Tex, Vex oder NEU: vifm
+- Yggdroot/indentLine - Vertikale Tabs: <M-i> (?)
+- itchyny/lightline.vim'    " Statuszeile geht jetzt gut
+- benmills/vimux'
+- sbdchd/neoformat'
+- jistr/vim-nerdtree-tabs (deaktiviert)
+- blueyed/vim-diminactive'
+- frazrepo/vim-rainbow'
+- tpope/vim-commentary'
+- NLKNguyen/papercolor-theme'
+- kyoz/purify', { 'rtp': 'vim' }
+- JuliaEditorSupport/julia-vim'
+- airblade/vim-gitgutter'
+- airblade/vim-gitgutter (deaktiviert)
+- dylanaraps/fff.vim' (kann entfallen)
+- lifepillar/vim-mucomplete (deaktiviert)
+- nvim-lua/plenary.nvim' (deaktiviert)
+- "Plug 'nvim-lua/popup.nvim (deaktiviert)
+- "Plug 'ThePrimeagen/harpoon (deaktiviert)
+- godlygeek/tabular ...
+- ixru/nvim-markdown - Markdown (auch als Viewer)
+- "Plug 'preservim/vim-markdown (deaktiviert)
+- "Plug 'vimwiki/vimwiki' (deaktiviert)
+- vifm/vifm.vim - MEIN bester Filemanager
+- "Plug 'sheerun/vim-polyglot (deaktiviert)  " scheint gerade f√ºr python nix extra zu
+- "Plug 'greghor/vim-pyShell (deaktiviert)     " Kompliziert
+- "Plug 'kassio/neoterm (deaktiviert)         " terminal f√ºr IPython und <C-z> benutzen 
 
 ## Python
 

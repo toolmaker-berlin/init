@@ -207,7 +207,7 @@ Im Einzelfall auch VSC und Jupyter Lab (Desktop) lokal verwenden!
   - Distributions - MultiCore Unterstützung
   - PyPlot - Plot-Utilities (falls nötig)
 
-## Julia Terminal Tools (PRÜFEN)
+## Julia Terminal I/O (in Arbeit)
 
 - TerminalUI.jl (Julia PackageMirrors) ...
 - TerminalExtensions.jl (JuliaPackageMirrors) ...
@@ -217,7 +217,7 @@ Im Einzelfall auch VSC und Jupyter Lab (Desktop) lokal verwenden!
 - Terming.jl (foldfelis) ...
 - Terminals.jl(Keno) ...
 - EchoREPL.jl (antimon2) - REPL Demo
-- Term.jl (FedeClaudi) - Wie RICH plus Input
+- ***Term.jl*** (FedeClaudi) - Wie RICH plus Input
 - NCurses.jl (Keno) - NCurses Interface
 
 ## Nützliches für Apple (MacOS und iOS)
@@ -225,6 +225,7 @@ Im Einzelfall auch VSC und Jupyter Lab (Desktop) lokal verwenden!
 - One Markdown - Bester Markdown Editor (Mac)
 - iTerm2 - Bestes Terminalprogramm (Mac)
 - Blink - Terminalprogramm mit MOSH (ios)
+- Termius - Terminal Emulator (ios)
 - UpNote - Notizen (alle Platformen)
 - GNU_Core_Utilities  - `brew install coreutils` (wikipedia)
 - usw.
@@ -232,10 +233,49 @@ Im Einzelfall auch VSC und Jupyter Lab (Desktop) lokal verwenden!
 ## Nützliches für Android
 
 - Userland - Linux
+- Termius - Terminal Emulator
+- UpNote - Notizen (alle Platformen)
+- Microsoft Swift Keys (ohne Swift)
+- usw.
 
 ## Visual Studio Code (Plugins)
 
+- *Spell Right* - Rechtschreibung
+- *Todo Tree* - Hilfreich
+- Visual Studio Code Dash (nur ctrl+alt+h & quitt mit cmd-q)
+- Explorer Bookmark - als Merkliste für Dateien
+- Deutsches Sprachpaket für VS Code
+- *Indent-Rainbow*
+- *Vim emulation*
+- PDF Viewer - statt vscode-pdf (corentinartaud/vscode-pdfpreview)
+- Zip Explorer
+- Open iTerm2
+- *Pylance* - alles für Python
+- *Python* (IntelliSense)
+- *Julia* - alles für Julia
+- *Jupyter* (Keymap, Notebook Renderers, Slide Show, Cell Tags)
+- Build++ wegen cppbuild is missing … vielleicht nur Relict!
+- *Auto-Open Markdown Preview*
+- *Markdown Preview Enhanced*
+- Docker for Visual Studio Code Dev Containers
+- Remote - SSH
+- Remote Explorer (SSH FS)
+- GitHub Codespaces
+- Git Graph extension 
+- Git History, Search and More
+- Git History Diff
+- GitHub Pull Requests and Issues (GIT)
+- *Material Icon Theme* (vscode-icons-mac bad Icons)
+
 ## Jupyter Lab (Plugins)
+
+- *imcovangent/jupyterlab_run_and_reload*
+- ryantam626/jupyterlab_code_formatter
+- krassowski/jupyterlab-lsp (LanguageServer)
+- deshaw/jupyterlab-execute-time
+- nbdiff (weiss nicht woher)
+- jupyterlab/jupyterlab-git
+
 
 ## Standart Movement/Keys (Mac)
 

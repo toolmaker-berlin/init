@@ -284,22 +284,18 @@ Im Einzelfall auch VSC und Jupyter Lab (Desktop) lokal verwenden!
 - Option Cursor -> next/last-Word, PageUp/PageDN (?)
 - FN Cursor -> PageUp/PageDown, BOF/EOF
 - Control Cursor next/last-Desktop, Exposé/App-Fenster 
-- Funktion F1 bis F12 mit FN
-- Spezial [ ] Option 5 und 6
-- Spezial { } Option 8 und 9
-- Spezial ~ Option n
-- Spezial µ Option m
-- Spezial | Option 7
-- Spezial \ Shift Option 7
 
 |Funktion|Tasten| 
 |---|---|
-Spezial [ ]|Option 5 und 6
-Spezial { }|Option 8 und 9
+F1 bis F12 | FN F1-F12
+Spezial [ ]| Option 5 und 6
+Spezial { }| Option 8 und 9
 Spezial ~  | Option n
 Spezial µ  | Option m
 Spezial \| | Option 7
-|Spezial \ | Shift Option 7
+Spezial \ | Shift Option 7
+@ | Option l (L)
+€ | Option e
 
 # Ende
 

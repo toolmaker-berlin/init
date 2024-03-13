@@ -81,39 +81,38 @@ Im Einzelfall auch VSC und Jupyter Lab (Desktop) lokal verwenden!
   - `scp` - Secure Copy via Netzwerk
   - `rsync` - Remote Sync u.a. Backups
   - `ps` - für juliaup
-  - `ripgrep` - besseres grep z.B. `rg -tmd vim`
-  - `exa` - besseres ls
-  - `bat`
-  - `fd`
-  - `tldr`
-  - `dust`
-  - `hyperfine`
+  - `ripgrep` - besseres `grep` z.B. `rg -tmd vim`
+  - `exa` - besseres `ls`
+  - `bat` - besseres `cat`
+  - `fd` - File Find
+  - `tldr` - kompaktes `man`
+  - `dust` - besseres `du` (Disk Info)
+  - `hyperfine` ...
   - `eza` - ersetzt `exa`
-  - `mdless`
+  - `mdless` - less für Markdown
   - `vifm` (glow/walk/nnn/ranger) - Filemanager (x,xg,xh,xxx)
-  - `cheat`
-  - `fzf`
-  - `p7zip`
-  - `the fuck`
-  - `wget`
-  - `mc`
-  - `speedtest`
-  - `tree`
-  - `atuin`
-  - `fig`
-  - `vivid`
-  - `antibody`
-  - `mosh`
-  - `coreutils`
-  - `fast-theme`
-  - `conda`
-  - `juliaup`
-  - `cmatrix`
-  - `ctag` (primär für C & Vim)
+  - `cheat` - Quick Referenzen
+  - `fzf` - Fuzzy File Find
+  - `p7zip` - zipper
+  - `wget` - Files aus dem Internet laden
+  - `mc` - Midnight Commander (Norton-Clone)
+  - `speedtest` - Internet Speed
+  - `tree` - Baum
+  - `atuin` - Control-R Erweiterung (History)
+  - `fig` - neu: CodeWhisperer `cw`
+  - `vivid` ...
+  - `antibody` - Plugin Manager für ZSH
+  - `mosh` - Mobil Secure Shell (Protokoll/Treiber)
+  - `brew`- Packet Manager MacOS
+  - `fast-theme` - Farbschemata Shell 
+  - `conda` - Python Virtuel Environment (Anaconda)
+  - `juliaup` - Julia Versionsverwaltung
+  - `cmatrix` - Gimmeck
+  - `ctag` - Extrahiert TAGs (primär für C & Vim)
   - `git` - Klassik GIT 
   - `gh` - Git Tool 
   - `hub` - Git Tool (nicht mehr benutzen sondern gh)
-  - `frogmouth` (glow, mdv, mdless, grip) - Markdown
+  - `frogmouth` (glow, mdv, mdless, grip) - Markdown Viewer
 
 ## Selbstdefinierte Funktionen
 
@@ -127,72 +126,71 @@ Im Einzelfall auch VSC und Jupyter Lab (Desktop) lokal verwenden!
 - Shougo/deoplete.nvim' (deaktiviert)
 - zchee/deoplete-jedi (deaktiviert - Doppelung!)
 - python-mode/python-mode (deaktiviert)
-- junegunn/vim-plug (Manager)
-- kshenoy/vim-signature ...
+- **junegunn/vim-plug** (Manager)
+- kshenoy/vim-signature ... (kann weg)
 - Pjiangmiao/auto-pairs (kann entfallen)
-- preservim/nerdtree - Sex, Tex, Vex oder NEU: vifm
+- **preservim/nerdtree** - Sex, Tex, Vex oder NEU: vifm
 - Yggdroot/indentLine - Vertikale Tabs: <M-i> (?)
-- itchyny/lightline.vim - Statuszeile
+- **itchyny/lightline.vim** - Statuszeile
 - benmills/vimux ...
 - sbdchd/neoformat ...
 - jistr/vim-nerdtree-tabs (deaktiviert NEU: vifm)
 - blueyed/vim-diminactive - Fenster dimmen (deaktiviert MD)
-- frazrepo/vim-rainbow - rainbow Indent/Klammern
-- tpope/vim-commentary - Block-Kommentar
+- **frazrepo/vim-rainbow** - rainbow Indent/Klammern
+- **tpope/vim-commentary** - Block-Kommentar
 - NLKNguyen/papercolor-theme - Theme (unbenutzt)
 - kyoz/purify - ... { 'rtp': 'vim' } (?)
-- JuliaEditorSupport/julia-vim' - FÜR JULIA OK
+- **JuliaEditorSupport/julia-vim** - FÜR JULIA OK
 - airblade/vim-gitgutter ... (deaktiviert)
-- dylanaraps/fff.vim' - Filemanager (kann entfallen)
+- dylanaraps/fff.vim - Filemanager (kann entfallen)
 - lifepillar/vim-mucomplete ... (deaktiviert)
-- nvim-lua/plenary.nvim' ... (deaktiviert)
+- nvim-lua/plenary.nvim ... (deaktiviert)
 - nvim-lua/popup.nvim ... (deaktiviert)
 - ThePrimeagen/harpoon - Suchen (deaktiviert)
 - godlygeek/tabular ...
-- ixru/nvim-markdown - Markdown (auch als Viewer)
+- **ixru/nvim-markdown** - Markdown (auch als Viewer)
 - preservim/vim-markdown - Markdown (deaktiviert)
 - vimwiki/vimwiki - Wiki (deaktiviert)
-- vifm/vifm.vim - MEIN bester Filemanager
+- **vifm/vifm.vim** - MEIN bester Filemanager
 - sheerun/vim-polyglot - u.a. Python (deaktiviert)
 - greghor/vim-pyShell (deaktiviert - Zu Kompliziert)
 - kassio/neoterm (deaktiviert - Terminal oder <C-z> benutzen) 
 
 ## Python
 
-  - pylint
-  - mypy
-  - pandoc
-  - black
-  - flake8
-  - isort
-  - speedtest-cli
-  - pypy3
-  - ipython
-  - numba
-  - cython
-  - rich
-  - ipdb
-  - ipwidgets?
-  - matplotlib
-  - pandas
-  - numpy
-  - tqdm
-  - friendly (NICHT mehr verwenden)
-  - watermark
-  - jedi
-  - pylint
-  - pygments
-  - pynvim
-  - colorama
-  - icecream
-  - pyfzf
-  - PySnooper ...neues tool wie trace ...
-  - ipyparallel?
-  - IPythonBell?
-  - julia (Pythonmodul!)
-  - jupytext
-  - pyinputplus - Inputroutinen (ok)
-  - python -m textual
+  - pylint - Linter
+  - mypy - Typeinfo prüfen
+  - pandoc - Formate wandeln
+  - black - Formatierer
+  - flake8 - Style Prüfen
+  - isort - Imports sortieren
+  - speedtest-cli - Internet Speedtest
+  - pypy3 - JIT Python Compiler
+  - ipython - Interaktives Python
+  - numba - Compiler Erweiterung
+  - cython - Compiter Erweiterung
+  - rich - Ausgaberoutinen und mehr
+  - ipdb - Debugger für IPython
+  - ipwidgets - Erweiterung Jupyter (alt)
+  - matplotlib - Plotter
+  - pandas - Lib für Datenanalyse
+  - numpy - Mathe, Arrays -> Schnell
+  - tqdm - Fortschrittsanzeige
+  - friendly - (NICHT mehr verwenden)
+  - watermark - Python/Maschine Info (wm)
+  - jedi - Erweiterung ua Vim
+  - pygments - Lib für Farben und Formate
+  - pynvim - Für NVim
+  - colorama - Farben
+  - icecream - Zum Debuggen (ersetzt Print)
+  - pyfzf- fzf für Python
+  - PySnooper - neues tool (trace)
+  - ipyparallel - Jupyter Erweiterung (alt)
+  - IPythonBell - Jupyter Erweiterung (alt)
+  - julia - Interface zu Julia (Pythonmodul)
+  - jupytext - Notebook Format Konverter
+  - pyinputplus - Inputroutinen
+  - textual - Input/Rich `python -m textual`
 
 ## Julia Module (add)
 
@@ -228,6 +226,7 @@ Im Einzelfall auch VSC und Jupyter Lab (Desktop) lokal verwenden!
 - iTerm2 - Bestes Terminalprogramm (Mac)
 - Blink - Terminalprogramm mit MOSH (ios)
 - UpNote - Notizen (alle Platformen)
+- GNU_Core_Utilities  - `brew install coreutils` (wikipedia)
 - usw.
 
 ## Nützliches für Android

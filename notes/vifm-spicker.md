@@ -295,6 +295,4 @@ filetype *.html,*.htm
 \ lynx funktioniert via brew
 ```
 
-# ----- Ende -----
-
 

@@ -292,6 +292,15 @@ Im Einzelfall auch VSC und Jupyter Lab (Desktop) lokal verwenden!
 - Spezial | Option 7
 - Spezial \ Shift Option 7
 
+|Funktion|Tasten| 
+|---|---|
+Spezial [ ]|Option 5 und 6
+Spezial { }|Option 8 und 9
+Spezial ~  | Option n
+Spezial µ  | Option m
+Spezial \| | Option 7
+|Spezial \ | Shift Option 7
+
 # Ende
 
 > Retirement is: “Not having the need to work for money. Plus, the freedom to start and stop doing anything with no consequences.”

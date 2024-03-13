@@ -1,16 +1,13 @@
-[Zurück](index.md)
+Stand 13. März 2024
 
-# The Julia Express (überarbeitet Deutsch)
+# The Julia Express (überarbeitet)
 
 Bogumił Kamin ́ ski August 25, 2019
 
   
-
 ## Übersicht 
 
 Julia beinhaltet einen interaktiven Modus (REPL). In diesem Modus gibt es einige nützliche Kommandos und Funktionen:
-
-  
 
 - ^D (Julia beenden)
 - ^C (Berechnung unterbrechen)
@@ -223,11 +220,9 @@ big(1.5)          # value of big type chosen appropriately, in this case BigFloa
 
 ## Type hierarchy of all standard numeric types
 
-  
-
-![](Files/image.png)  
-
-##   
+```
+... offen Grafik fehlt!
+```
 
 ## Special literals and types
 
@@ -547,7 +542,6 @@ get(y,"c","default")       # return y["c"] or "default" if not haskey(y,"c")
 
 Julia also supports operations on sets, created similarly with Set constructor (please refer to the documentation for details).
 
-##   
 
 ## Strings
 
@@ -665,8 +659,6 @@ end           # x is defined in the inner scope of the loop
 ```
 
   
-
-##   
 
 ## Functions
 
@@ -887,9 +879,7 @@ cos(1)      # fails - cos is bound to 1 in the module Main
 Base.cos(1) # works
 ```
 
-  
 
-##   
 
 ## Operators and broadcasting
 
@@ -1051,8 +1041,6 @@ rand(b, 100)
 
   
 
-##   
-
 ## Statistics and machine learning
 
 Visit http://juliastats.github.io/ for the details (in particular R-like data frames).
@@ -1067,7 +1055,6 @@ ismissing(missing)      # true
 coalesce(missing, 1, 2) # return first non-missing value, or missing if all are missing
 ```
 
-##   
 
 ## Macros
 
@@ -1151,11 +1138,10 @@ grid(true)
 
 **producing:**
 
-  
+```
+... offen Grafik fehlt!
+```
 
-![](Files/File.jpg.jpg)
-
-##   
 
 ## Working with tabular data
 
@@ -1185,9 +1171,9 @@ first(df, 5) # print first 5 rows of a data frame; use the last function for las
 
  4x5 DataFrame ...
 
-  
-
-![](Files/File.jpg%202.jpg)
+```
+... offen Grafik fehlt!
+```
 
   
 
@@ -1230,17 +1216,18 @@ unstack(df2) # a reverse operation - wide to long format
 
 The Julia language is so flexible that it allows you to transform this 
 
-  
-
-![](Files/File.jpg%203.jpg)
+```
+... offen Grafik fehlt!
+```
+ 
 
   
 
 **to this**  
 
-  
-
-![](Files/File.jpg%204.jpg)
+```
+... offen Grafik fehlt!
+```
 
   
 
@@ -1250,13 +1237,9 @@ The Julia language is so flexible that it allows you to transform this 
 
 You can fully appreciate it (actually it is an animation of revolving hearts) when you run the code yourself. You can find it here:
 
-  
-
 [https://github.com/maxbennedich/code-golf/tree/cea06287689868f2342959f9c12f0b629a1d0cf4/hearts](https://https://github.com/maxbennedich/code-golf/tree/cea06287689868f2342959f9c12f0b629a1d0cf4/hearts%20)
 
   
-
-## \-End-
 
 
 

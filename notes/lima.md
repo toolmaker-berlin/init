@@ -1,11 +1,11 @@
-[Zurück](index.md)
+Stand 13. März 2024 (dürftig)
 
-Spicker Lima
-
-
-Achtung innerhalb ipython funktioniert (Plötzlich) auch %pip⁠
+# Spicker Lima
 
 
+Achtung innerhalb ipython funktioniert (plötzlich) auch %pip⁠
+
+```
 limactl --help  
 
 limactl -h    
@@ -56,6 +56,9 @@ cd _config/
 ls
 cat user
 cat networks.yaml
+```
+
+
 
 
 

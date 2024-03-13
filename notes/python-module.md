@@ -1,4 +1,8 @@
-[Zurück](index.md)
+Stand 13. März 2024 (Alt - Python 3.6)
+
+***Fett*** - Wichtig
+[X] Sehr Wichtig / Angesehen
+Minus (-) Ansehen und prüfen
 
 # Spezial (underline)
 [ ] future Future statement definitions

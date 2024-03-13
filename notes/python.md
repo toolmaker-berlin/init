@@ -1,10 +1,12 @@
-[Zurück](index.md)
+Stand 13. März 2024 (Alt: Python3.6)
 
 # IMPORTS
 
 ## generic import of math module
+```python
 import math
 math.sqrt(25)
+```
 
 ## import a function
 from math import sqrt

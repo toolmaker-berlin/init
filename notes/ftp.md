@@ -1,23 +1,31 @@
-[Zurück](index.md)
+Stand 13. März 2024 (überarbeiten)
 
+# LFTP
 
-# Neu:
+```
 brew install lftp (Kommt ftp am nächsten)
 http://lftp.yar.ru/
 
-lftp hslibar@ftp.livedrive.com/testftp
-... login PW und CD in Einem
+lftp username@ftp.livedrive.com/testftp
+... login USER/PW und CD in Einem
+
 cd
 ls
 get
 put
-usw.
+... usw.
 
 bye = Ende
 Tab → Complition
+```
+
+
 https://www2.informatik.hu-berlin.de/Infosys/ftp_anleitung
 https://web.archive.org/web/20111024014512/http://tutorials.papamike.ca/pub/lftp.html
 
+# Livedrive
+
+```
 Serverinformationen Copy von Livedrive weiter unten
 FTP-Serveradresse (nur passiver Modus oder PASV):     ftp.livedrive.com
 WebDAV-Serveradresse:                                                           webdav.livedrive.com
@@ -29,38 +37,47 @@ Benutzername: E-Mail-Adresse Ihres Livedrive-Kontos
 Passwort:            Ihr normales Livedrive-Passwort
 Sie müssen für FTP- und WebDAV-Verbindungen ein spezielles App-Passwort anstelle Ihres normalen Kontopassworts verwenden, wenn die Zwei-Faktor-Authentifizierung aktiviert ist.
 Nachdem Sie die Zwei-Faktor-Authentifizierung für Ihr Konto aktiviert haben, erscheint ein Abschnitt unter „Datenschutz und Sicherheit“ in Ihrem Portal mit dem Namen „FTP-/WebDAV-Zugang“. Klicken Sie auf „App-Passwort generieren“ und Ihr neues App-Passwort wird angezeigt. Sie können es dann kopieren und anstelle Ihres normalen Kontopassworts verwenden, um sich per FTP oder WebDAV zu verbinden.
+```
 
 To use wget to download files from an FTP server, you can simply specify the username, password, and FTP URL of the file you want to download.
-$ wget ftp://username:password@ftp_server_address/path/to/file
-$ wget ftp://hslibar:64goodold@ftp.livedrive.com/testftp
-wget ftp://hslibar:64goodold@ftp.livedrive.com/testftp/test.swif
 
-Funktion .... macht wget & Filename oder nur dir (Index.html)
+```
+$ wget ftp://username:password@ftp_server_address/path/to/file
+
+$ wget ftp://user-ich:goodold@ftp.livedrive.com/testftp
+$ wget ftp://user-ich:goodold@ftp.livedrive.com/testftp/test.swif
+
+Funktion wg macht wget & Filename oder nur dir (Index.html)
+
 wg()
 {
-    wget "ftp://hslibar:6-2@ftp.livedrive.com/testftp/$@"
+    wget "ftp://user-ich:goodold@ftp.livedrive.com/testftp/$@"
 }
+```
 
 Variante mit VIFM:
 https://wiki.vifm.info/index.php/How_to_browse_FTP_in_Vifm
-lassen wir sein, Aufwand zu Groß und lftp macht alles
+
+
+... lassen wir sein, Aufwand zu Groß und lftp macht alles
 
 
 # Kurzanleitung FTP
+
 Man arbeitet im Dialog mit einem FTP-Server (das kann jeder Rechner sein, der das FTP-Protokoll implementiert hat) und transferiert die gewünschten Files via File Transfer Protokoll (ftp). Die einzigen Voraussetzungen sind ein Anschluß ans Internet und die FTP-Software.
 
-Der Verbindungsaufbau erfolgt durch Eingabe des Kommandos :
+Der Verbindungsaufbau erfolgt durch Eingabe des Kommandos:
 
          
-        ftp rechnername
+> ftp rechnername
 
 Dabei kann Rechnername entweder ein gültiger Rechnername (ftp.informatik.hu-berlin.de), oder eine Internet-adresse (141.20.20.38) sein. Man muß dazu auf dem Rechner ein Nutzerkennzeichen besitzen. Damit meldet man sich dann an. Eine Ausnahme bilden die sogenannten"anonymen FTP-Server". Dort ist kein eigenes Nutzerkennzeichen erforderlich.
 
 Man meldet sich mit
 
-        login:  anonymous oder ftp
-        passwd: "eigene Mailadresse"    
-                (z.B. user@informatik.hu-berlin.de)
+>login:  anonymous oder ftp
+passwd: "eigene Mailadresse"    
+(z.B. user@informatik.hu-berlin.de)
 
 am System an.
 
@@ -129,9 +146,9 @@ Wechseln des Verzeichnisses auf dem lokalen Rechner. Wenn kein Verzeichnis angeg
 ls [fernes_Verz] [lokale_Datei]
 Wie Kommando dir. Es werden aber nur die Dateinamen ausgegeben.
 mdelete ferne_Dateien
-Löschen von mehreren Dateien auf dem FTP-Server. Metazeichen (*, ? usw.) sind erlaubt.
+Löschen von mehreren Dateien auf dem FTP-Server. Metazeichen (\*, ? usw.) sind erlaubt.
 mdir ferne_Verz. lokale_Datei
-Wie Kommando dir. Aber Angabe mehrere Verzeichnisse möglich. Metazeichen (*, ? usw.) sind erlaubt.
+Wie Kommando dir. Aber Angabe mehrere Verzeichnisse möglich. Metazeichen (\*, ? usw.) sind erlaubt.
 mget ferne_Dateien
 Wie Kommando get, aber mehrere Dateien
 mls fernes_Verz lokale_Datei
@@ -139,18 +156,18 @@ Wie Kommando ls , aber mehrere Verzeichnisse können angegeben werden.
 mode [mode-name]
 Setzen des Übertragungsmodus.
 mput lokale_Dateien
-Wie Kommando put , aber mehrere Dateien können angegeben werden. Metazeichen (*, ? usw.) sind erlaubt.
+Wie Kommando put , aber mehrere Dateien können angegeben werden. Metazeichen (\*, ? usw.) sind erlaubt.
 open rechnername
 Aufbau einer FTP-Verbindung zu rechnername
 prompt
 Ein/Ausschalten der Anfrage zur Bestätigung bei der Übertragung mehrere Dateien.
-put lokale_Datei [ferne_Datei]
+`put lokale_Datei [ferne_Datei]`
 Kopieren einer Datei des lokalen Rechners zum FTP-Server. Falls ferne_Datei nicht angegeben wird oder schon existiert, wird lokale_Datei als Dateiname auf dem entfernten Rechner benutzt.
-pwd
+`pwd`
 Ausgabe des aktuellen Verzeichnisses auf dem FTP-Server.
-quit
+`quit`
 wie Kommando bye
-recv ferne_Datei [lokale_Datei]
+`recv ferne_Datei [lokale_Datei]`
 wie Kommando get
 remotehelp [kommandoname]
 Hilfeanforderung für Kommando auf dem FTP-Server. Falls kein Kommandoname angegeben, wird eine Liste der implementierten Kommandos des Servers ausgegeben.

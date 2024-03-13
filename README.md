@@ -18,7 +18,7 @@ Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spi
 * Tmux (mobil - lokal iTerm2)
 * Docker/Lima 
 
-Im Einzelfall auch VSC und Jupyter Lab lokal verwenden!
+Im Einzelfall auch VSC und Jupyter Lab (Desktop) lokal verwenden!
 
 # Worum es geht
 
@@ -54,14 +54,8 @@ Im Einzelfall auch VSC und Jupyter Lab lokal verwenden!
   - julia (Programmiersprache)
   - tmux (Terminal Multiplexer)
   - lima (Docker VM für MacOS)
-
-## Offen (noch testen)
-
-  - `rsync` - remode sync für Backups
-  - `scp` - secure copy für meine Server
-  - `frogmouth` (glow, mdv, mdless, grip) - Markdown
- 
-## Tools checken/vertiefen:
+     
+## CLI Tools
 
   - `locate` ...
   - `!!` und `!$` - Letztes CMD bzw. letzte Parameter 
@@ -81,54 +75,52 @@ Im Einzelfall auch VSC und Jupyter Lab lokal verwenden!
   - `rar` - winrar inkl. zip
   - `cd -` - cd zum letzten benutzten Ordner (nicht `cd ..`)
   - `mutt` - E-Mail (configuration mit web.de geht ok)
-    
-## CLI Tools
-
   - `ac` - Statistik (wie lange Verbunden)
   - `who` - Wer ist angemeldet
   - `which` oder `where[is]` - Programm suchen
   - `scp` - Secure Copy via Netzwerk
   - `rsync` - Remote Sync u.a. Backups
-  - `ps` (für juliaup)
-  - `ripgrep` z.B. `rg -tmd vim`(besseres grep)
-  - exa
-  - bat
-  - fd
-  - tldr
-  - dust
-  - hyperfine
-  - eza ersetzt exa
-  - mdless
+  - `ps` - für juliaup
+  - `ripgrep` - besseres grep z.B. `rg -tmd vim`
+  - `exa` - besseres ls
+  - `bat`
+  - `fd`
+  - `tldr`
+  - `dust`
+  - `hyperfine`
+  - `eza` - ersetzt `exa`
+  - `mdless`
   - `vifm` (glow/walk/nnn/ranger) - Filemanager (x,xg,xh,xxx)
-  - cheat
-  - fzf
-  - p7zip
-  - the fuck
-  - wget
-  - mc
-  - speedtest
-  - tree
-  - atuin
-  - fig
-  - vivid
-  - antibody
-  - mosh
-  - coreutils
-  - fast-theme
-  - conda
-  - juliaup
-  - cmatrix
-  - ctag (primär für C & Vim)
+  - `cheat`
+  - `fzf`
+  - `p7zip`
+  - `the fuck`
+  - `wget`
+  - `mc`
+  - `speedtest`
+  - `tree`
+  - `atuin`
+  - `fig`
+  - `vivid`
+  - `antibody`
+  - `mosh`
+  - `coreutils`
+  - `fast-theme`
+  - `conda`
+  - `juliaup`
+  - `cmatrix`
+  - `ctag` (primär für C & Vim)
   - `git` - Klassik GIT 
   - `gh` - Git Tool 
   - `hub` - Git Tool (nicht mehr benutzen sondern gh)
+  - `frogmouth` (glow, mdv, mdless, grip) - Markdown
 
 ## Selbstdefinierte Funktionen
 
-- load (vifm) - Gitverzeichnis mit GitHub abgleichen (laden)
-- update (vifm) - GitHub mit Gitverzeichnis abgleichen (speichern)
-- saveconfig (vifm) - Konfigurationsdateien und User Homeverzeichnis nach iCloud sichern
-- save (shell) - wie saveconfig
+- *load* (vifm) - Gitverzeichnis mit GitHub abgleichen (laden)
+- *update* (vifm) - GitHub mit Gitverzeichnis abgleichen (speichern)
+- *saveconfig* (vifm) - Konfigurationsdateien und User Homeverzeichnis nach iCloud sichern
+- *save* (shell) - wie saveconfig
 
 ## Vim/NeoVim Plugins
 

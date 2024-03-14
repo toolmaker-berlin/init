@@ -33,7 +33,16 @@ Im Einzelfall auch VSC und Jupyter Lab (Desktop) lokal verwenden!
 
 ## NOTES (Kurzanleitungen, Checklisten, Essays, usw.)
 
-- git-spicker
+- codon.md
+- ftp.md
+- git-spicker.md
+- julia.md
+- lima.md
+- python-module.md
+- python.md
+- regex.md
+- tmux.md
+- vifm-spicker.md
 - offen: Mobil First, Cloud Nativ, Provider Indepent (Essay)
 - offen: Toolbox/Toolbelt (Essay)
 - offen: Fuhrpark (Blog)

@@ -9,8 +9,10 @@ math.sqrt(25)
 ```
 
 ## import a function
+```python
 from math import sqrt
 sqrt(25)  # no longer have to reference the module
+```
 
 ## import multiple functions at once
 from math import cos, floor

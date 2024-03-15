@@ -4,7 +4,7 @@ Stand 8. März 2024
 `cd ~/github` bzw. `cd ~/dev/github`   
 *Mein allgemeines git Verzeichnis, weil **ich** das so mache und gut finde.* 
 
-Mit vifm: HG Hg :load und :update beachten!
+> Mit vifm: HG Hg ***:load*** und ***:update (akt. Verz.)*** beachten!
 
 `git clone git@github.com:toolmaker-berlin/test` (repo-name)
 

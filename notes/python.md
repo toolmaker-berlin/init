@@ -15,50 +15,69 @@ sqrt(25)  # no longer have to reference the module
 ```
 
 ## import multiple functions at once
+```Python
 from math import cos, floor
+```
 
 ## import all functions in a module (generally discouraged)
+```python
 from csv import *
+```
 
 ## define an alias
+```python
 import datetime as dt
+```
 
 ## show all functions in math module
+```python
 dir(math)
+```
 
 # DATA TYPES
 
 ## determine the type of an object
+```python
 type(2)  # returns 'int'
 type(2.0)  # returns 'float'
 type('two')  # returns 'str'
 type(True)  # returns 'bool'
 type(None)  # returns 'NoneType'
+```
 
 ## check if an object is of a given type
+```python
 isinstance(2.0, int)  # returns False
 isinstance(2.0, (int, float))  # returns True
+```
 
 ## convert an object to a given type
+```python
 float(2)
 int(2.9)
 str(2.9)
+```
 
 ## zero, None, and empty containers are converted to False
+```python
 bool(0)
 bool(None)
 bool('')  # empty string
 bool([])  # empty list
 bool({})  # empty dictionary
+```
 
 ## non-empty containers and non-zeros are converted to True
+```python
 bool(2)
 bool('two')
 bool([2])
+```
 
 # MATH
 
 ## basic operations
+```python
 10 + 4  # add (returns 14)
 10 - 4  # subtract (returns 6)
 10 * 4  # multiply (returns 40)
@@ -66,81 +85,107 @@ bool([2])
 5 % 4  # modulo (returns 1) - computes the remainder
 10 / 4  # divide (returns 2 in Python 2, returns 2.5 in Python 3)
 10 / float(4)  # divide (returns 2.5)
+```
 
 ## force '/' in Python 2 
+```python
 ...to perform 'true division' (unnecessary in Python 3)
 from __future__ import division
 10 / 4  # true division (returns 2.5)
 10 // 4  # floor division (returns 2)
+```
 
 # COMPARISONS AND BOOLEAN OPERATIONS
 
 ## assignment statement
+```python
 x = 5
+```
 
 ## comparisons (these return True)
+```python
 x > 3
 x >= 3
 x != 3
 x == 5
+```
 
 ## boolean operations (these return True)
+```python
 5 > 3 and 6 > 3
 5 > 3 or 5 < 3
 not False
 False or not False and True  # evaluation order: not, and, or
+```
 
 # CONDITIONAL STATEMENTS
 
 ## if statement
+```python
 if x > 0:
 	print('positive')
+```
 
 ## if/else statement
+```python
 if x > 0:
 	print('positive')
 else:
 	print('zero or negative')
+```
 
 ## if/elif/else statement
+```python
 if x > 0:
 	print('positive')
 elif x == 0:
 	print('zero')
 else:
 	print('negative')
+```
 
 ## single-line if statement (sometimes discouraged)
+```python
 if x > 0: print('positive')
+```
 
 ## single-line if/else statement (sometimes discouraged)
-known as a 'ternary operator'
+```python
+# known as a 'ternary operator'
 msg = 'positive' if x > 0 else 'zero or negative'
 
-The first statement (True or “Some”) will return True 
-and the second statement (False or “Some”) will return Some.
+# The first statement (True or “Some”) will return True 
+# and the second statement (False or “Some”) will return Some.
 
 output = None
 msg = output or "No data returned"
 print(msg)
-No data returned
+# No data returned
+```
 
 # LISTS
 
-properties: ordered, iterable, mutable, can contain multiple data types
+> properties: ordered, iterable, mutable, can contain multiple data types
 
 ## create an empty list (two ways)
+```python
 empty_list = []
 empty_list = list()
+```
 
 ## create a list
+```python
 simpsons = ['homer', 'marge', 'bart']
+```
 
 ## examine a list
+```python
 simpsons[0]  # print element 0 ('homer')
 len(simpsons)  # returns the length (3)
+```
 
 ## modify a list (does not return the list)
+```python
 simpsons.append('lisa')  # append element to end
 simpsons.extend(['itchy', 'scratchy'])  # append multiple elements to end
 simpsons.insert(
@@ -149,15 +194,21 @@ simpsons.remove('bart')  # search for first instance and remove it
 simpsons.pop(0)  # remove element 0 and return it
 del simpsons[0]  # remove element 0 (does not return it)
 simpsons[0] = 'krusty'  # replace element 0
+```
 
 ## concatenate lists (slower than 'extend' method)
+```python
 neighbors = simpsons + ['ned', 'rod', 'todd']
+```
 
 ## find elements in a list
+```python
 simpsons.count('lisa')  # counts the number of instances
 simpsons.index('itchy')  # returns index of first instance
+```
 
 ## list slicing [start:end:step]
+```python
 weekdays = ['mon', 'tues', 'wed', 'thurs', 'fri']
 weekdays[0]    # element 0
 weekdays[0:3]  # elements 0, 1, 2
@@ -166,50 +217,67 @@ weekdays[3:]   # elements 3, 4
 weekdays[-1]   # last element (element 4)
 weekdays[::2]  # every 2nd element (0, 2, 4)
 weekdays[::-1] # backwards (4, 3, 2, 1, 0)
+```
 
 ## alternative method for returning the list backwards
+```python
 list(reversed(weekdays))
+```
 
 ## sort a list in place (modifies but does not return the list)
+```python
 simpsons.sort()
 simpsons.sort(reverse=True)  # sort in reverse
 simpsons.sort(key=len)  # sort by a key
+```
 
 ## return a sorted list (does not modify the original list)
+```python
 sorted(simpsons)
 sorted(simpsons, reverse=True)
 sorted(simpsons, key=len)
+```
 
 ## insert into an already sorted list, and keep it sorted
+```python
 num = [10, 20, 40, 50]
 from bisect import insort
 insort(num, 30)
+```
 
 ## create a second reference to the same list
+```python
 same_num = num
 same_num[0] = 0  # modifies both 'num' and 'same_num'
+```
 
 ## copy a list (two ways)
+```python
 new_num = num[:]
 new_num = list(num)
+```
 
 ## examine objects
+```python
 num is same_num  # returns True (checks whether they are the same object)
 num is new_num  # returns False
 num == same_num  # returns True (checks whether they have the same contents)
 num == new_num  # returns True
+```
 
 # TUPLES
 
-properties: ordered, iterable, immutable, can contain multiple data types
-like lists, but they don't change size
+> properties: ordered, iterable, immutable, can contain multiple data types like lists, but they don't change size
 
 ## create a tuple
+```python
 digits = (0, 1, 'two')  # create a tuple directly
 digits = tuple([0, 1, 'two'])  # create a tuple from a list
 zero = (0, )  # trailing comma is required to indicate it's a tuple
+```
 
 ## examine a tuple
+```python
 digits[2]  # returns 'two'
 len(digits)  # returns 3
 digits.count(0)  # counts the number of instances of that value (1)
@@ -217,25 +285,34 @@ digits.index(1)  # returns the index of the first instance of that value (1)
 
 elements of a tuple cannot be modified
 digits[2] = 2       # throws an error
+```
 
 ## concatenate tuples
+```python
 digits = digits + (3, 4)
+```
 
 ## create a single tuple with elements repeated (also works with lists)
+```python
 (3, 4) * 2  # returns (3, 4, 3, 4)
+```
 
 ## sort a list of tuples
+```python
 tens = [(20, 60), (10, 40), (20, 30)]
 sorted(tens)  # sorts by first element in tuple, then second element
-returns: [(10, 40), (20, 30), (20, 60)]
+# returns: [(10, 40), (20, 30), (20, 60)]
+```
 
 ## tuple unpacking
+```python
 bart = ('male', 10, 'simpson')  # create a tuple
 (sex, age, surname) = bart  # assign three values at once
+```
 
 # STRINGS
 
-properties: iterable, immutable
+> properties: iterable, immutable
 
 ## create a string
 s = str(42)  # convert another data type into a string

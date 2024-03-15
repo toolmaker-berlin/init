@@ -1,23 +1,26 @@
 Stand 13. März 2024
 
-# The Julia Express (überarbeitet)
+# The Julia Express (überarbeiten!)
 
-Bogumił Kamin ́ ski August 25, 2019
+***Bogumił Kamin ́ ski August 25, 2019***
 
-  
+
 ## Übersicht 
 
-Julia beinhaltet einen interaktiven Modus (REPL). In diesem Modus gibt es einige nützliche Kommandos und Funktionen:
+> Julia beinhaltet einen interaktiven Modus (REPL). In diesem Modus gibt es einige nützliche Kommandos und Funktionen:
 
-- ^D (Julia beenden)
-- ^C (Berechnung unterbrechen)
-- ? (Hilfsmodus beginnen)
-- ; (Shell Modus beginnen)
-- \] (Paket Manager starten) 
+- `^D` (Julia beenden)
+- `^C` (Berechnung unterbrechen)
+- `?` (Hilfsmodus beginnen)
+- `;` (Shell Modus beginnen)
+- `]` (Paket Manager starten) 
 
-- Ctrl-l (L Bildschirm löschen) 
+- `Ctrl-l` (kleines L -> Bildschirm löschen)
+- `Ctrl-r` (History)
+- `ESC-E` (Editor - Vim)
+- `ESC-M` (Modul wechseln)
 
-- putting „;“ after the expression will disable showing its value in REPL (not needed in scripts). Examples of some essential functions in the Julia REPL (they can be also invoked in scripts)
+> Putting „;“ after the expression will disable showing its value in REPL (not needed in scripts). Examples of some essential functions in the Julia REPL (they can be also invoked in scripts)
 
   
 
@@ -47,19 +50,13 @@ clipboard([1,2])   # copy data to system clipboard
 clipboard()        # load data from system clipboard as a string
 ```
 
-  
-
-You can execute a Julia script from OS shell by running:
-
-  
+> You can execute a Julia script from OS shell by running:
 
 ```julia
 julia script.jl
 ```
 
-  
-
-Try saving the following example script to a file and run it (more examples of all the constructs used are given in following sections):
+> Try saving the following example script to a file and run it (more examples of all the constructs used are given in following sections):
 
   
 
@@ -88,37 +85,20 @@ println(es(100))       # print all primes less or equal than 100
 @time length(es(10^6)) # check function execution time and memory usage
 ```
 
-  
-
-  
-
 ## Basic literals and types
 
-Basic scalar literals are the following:
+> Basic scalar literals are the following:
+> The syntax x::Type is a literal x with type Type assertion.   
 
-  
+> In practice the type assertion is not needed. Here we use it only to show the type of each kind of a literal. 
 
-The syntax x::Type is a literal x with type Type assertion.   
+> All basic types listed above are immutable.
 
-  
+> Type assertions for variables are made in the same way and they can be useful to catch bugs in your code.
 
-In practice the type assertion is not needed. Here we use it only to show the type of each kind of a literal. 
+> An important feature of integers in Julia is that by default they are 64 bit on 64 bit Julia and 32 bit on 32 bit Julia. This means that 1::Int32 assertion will fail on 64-bit Julia. Notably Int is a constant whose value is either Int64 or Int32 depending on version (the same with unsigned integer UInt).
 
-  
-
-All basic types listed above are immutable.
-
-  
-
-Type assertions for variables are made in the same way and they can be useful to catch bugs in your code.
-
-  
-
-An important feature of integers in Julia is that by default they are 64 bit on 64 bit Julia and 32 bit on 32 bit Julia. This means that 1::Int32 assertion will fail on 64-bit Julia. Notably Int is a constant whose value is either Int64 or Int32 depending on version (the same with unsigned integer UInt).
-
-  
-
-There is no automatic type conversion, unless some function explicitly performs it. This is especially important in function calls. The simplest way to perform the conversion of a value x to type T by writing T(x), for example:
+> There is no automatic type conversion, unless some function explicitly performs it. This is especially important in function calls. The simplest way to perform the conversion of a value x to type T by writing T(x), for example:
 
   
 

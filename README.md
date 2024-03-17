@@ -214,6 +214,7 @@ Im Einzelfall auch VSC und Jupyter Lab (Desktop) lokal verwenden!
   - ReplMaker - Eigene REPL definieren
   - PyCall - Schnittstelle zu Python
   - Distributions - MultiCore Unterstützung
+  - Metal - M1 GPUs rechnen lassen
   - PyPlot - Plot-Utilities (falls nötig)
 
 ## Julia Terminal I/O (in Arbeit)

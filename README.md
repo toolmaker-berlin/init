@@ -61,9 +61,12 @@ Im Einzelfall auch VSC und Jupyter Lab (Desktop) lokal verwenden!
 - regex.md
 - tmux.md
 - vifm-spicker.md
+
+<!--- (3x'-' für PANDOC) 
 - offen: Mobil First, Cloud Nativ, Provider Indepent (Essay)
 - offen: Toolbox/Toolbelt (Essay)
 - offen: Fuhrpark (Blog)
+-->
 
 ## TEMPLATES (Programmbeispiele, etc.)
 

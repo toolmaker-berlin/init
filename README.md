@@ -2,7 +2,7 @@ Stand 12. März 2024
 
 Oftmals vergisst man im Laufe der Zeit wie man bestimmte Probleme in der Vergangenheit gelöst hat oder welche Schritte notwendig waren um etwas richtig zu installieren und zu konfigurieren. Insbesondere bei selten oder lange nicht benutzten Werkzeugen kann es nützlich sein eine Sammlung grundsätzlicher Informationen zur Hand zu haben.
 
-Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spickzettel, rudimentären Configs und Listen zugreifen kann. Natürlich kann und darf ***jeder*** darin stöbern und für sich nützliches verwenden ***(ohne Garantie)***. 
+Dieses Repo (WIP) ist öffendlich damit ***ich*** jederzeit von überall auf meine Spickzettel, rudimentären Configs und Listen zugreifen kann. Natürlich kann und darf ***jeder*** darin stöbern und für sich nützliches verwenden ***(ohne Garantie)***. 
 
 - [Worum es geht (INIT)](#worum-es-geht-init)
   - [CONFIGS (Resouce-Dateien, Init-Dateien)](#configs-resouce-dateien-init-dateien)

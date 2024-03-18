@@ -1,12 +1,30 @@
-# INIT
-
 Stand 12. März 2024
 
 Oftmals vergisst man im Laufe der Zeit wie man bestimmte Probleme in der Vergangenheit gelöst hat oder welche Schritte notwendig waren um etwas richtig zu installieren und zu konfigurieren. Insbesondere bei selten oder lange nicht benutzten Werkzeugen kann es nützlich sein eine Sammlung grundsätzlicher Informationen zur Hand zu haben.
 
 Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spickzettel, rudimentären Configs und Listen zugreifen kann. Natürlich kann und darf ***jeder*** darin stöbern und für sich nützliches verwenden ***(ohne Garantie)***. 
 
-> “I don’t think there is one size that fits all” — Steve Ballmer
+- [Worum es geht (INIT)](#worum-es-geht-init)
+  - [CONFIGS (Resouce-Dateien, Init-Dateien)](#configs-resouce-dateien-init-dateien)
+  - [NOTES (Kurzanleitungen, Checklisten, Essays, usw.)](#notes-kurzanleitungen-checklisten-essays-usw)
+  - [TEMPLATES (Programmbeispiele, etc.)](#templates-programmbeispiele-etc)
+- [Übersicht](#Übersicht)
+  - [Werkzeuge](#werkzeuge)
+  - [CLI Tools](#cli-tools)
+  - [Selbstdefinierte Funktionen](#selbstdefinierte-funktionen)
+  - [Vim/NeoVim Plugins](#vimneovim-plugins)
+  - [Python](#python)
+  - [Julia Module (add)](#julia-module-add)
+  - [Julia Terminal I/O (in Arbeit)](#julia-terminal-io-in-arbeit)
+  - [Nützliches für Apple (MacOS und iOS)](#nützliches-für-apple-macos-und-ios)
+  - [Nützliches für Android](#nützliches-für-android)
+  - [Visual Studio Code (Plugins)](#visual-studio-code-plugins)
+  - [Jupyter Lab (Plugins)](#jupyter-lab-plugins)
+  - [Standart Movement/Keys (Mac)](#standart-movementkeys-mac)
+- [Merke](#merke)
+
+
+# Worum es geht (INIT)
 
 ***Mein 'Werkzeugkasten' für ein Shell zentriertes Arbeiten - überwiegend via SSH - mit Vim, (Vim-)Filemanager, Python und Julia:***
 
@@ -20,7 +38,7 @@ Dieses Repo ist öffendlich damit ***ich*** jederzeit von überall auf meine Spi
 
 Im Einzelfall auch VSC und Jupyter Lab (Desktop) lokal verwenden!
 
-# Worum es geht
+> “I don’t think there is one size that fits all” — Steve Ballmer
 
 ## CONFIGS (Resouce-Dateien, Init-Dateien)
 
@@ -307,7 +325,7 @@ Spezial \ | Shift Option 7
 @ | Option l (L)
 € | Option e
 
-# Ende
+# Merke
 
 > Retirement is: “Not having the need to work for money. Plus, the freedom to start and stop doing anything with no consequences.”
 

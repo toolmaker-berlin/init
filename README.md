@@ -1,8 +1,8 @@
-Stand 12. März 2024
+Stand 19. März 2024
 
 Oftmals vergisst man im Laufe der Zeit wie man bestimmte Probleme in der Vergangenheit gelöst hat oder welche Schritte notwendig waren um etwas richtig zu installieren und zu konfigurieren. Insbesondere bei selten oder lange nicht benutzten Werkzeugen kann es nützlich sein eine Sammlung grundsätzlicher Informationen zur Hand zu haben.
 
-Dieses Repo ***(WIP)*** ist öffendlich damit ***ich*** jederzeit von überall auf meine Spickzettel, rudimentären Configs und Listen zugreifen kann. Natürlich kann und darf ***jeder*** darin stöbern und für sich nützliches verwenden ***(ohne Garantie)***. 
+Dieses Repo ***(WIP - Work In Progress)*** ist öffendlich damit ***ich*** jederzeit von überall auf meine Spickzettel, rudimentären Configs und Listen zugreifen kann. Natürlich kann und darf ***jeder*** darin stöbern und für sich nützliches verwenden ***(ohne Garantie)***. 
 
 - [Worum es geht (INIT)](#worum-es-geht-init)
   - [CONFIGS (Resouce-Dateien, Init-Dateien)](#configs-resouce-dateien-init-dateien)
@@ -22,6 +22,7 @@ Dieses Repo ***(WIP)*** ist öffendlich damit ***ich*** jederzeit von überall a
   - [Jupyter Lab (Plugins)](#jupyter-lab-plugins)
   - [Standart Movement/Keys (Mac)](#standart-movementkeys-mac)
 - [Merke](#merke)
+- [Rechtliches](#rechtliches)
 
 
 # Worum es geht (INIT)
@@ -240,13 +241,13 @@ Im Einzelfall auch VSC und Jupyter Lab (Desktop) lokal verwenden!
 
 ## Julia Terminal I/O (in Arbeit)
 
-- TerminalUI.jl (Julia PackageMirrors) ...
-- TerminalExtensions.jl (JuliaPackageMirrors) ...
-- TermWin.jl (JuliaPackageMirrors) ...
-- TERMIOS.JI (kdheepak) ...
+- TerminalUI.jl (Julia PackageMirrors) Framework
+- ***TerminalExtensions.jl*** (JuliaPackageMirrors) iTerm2
+- TermWin.jl (JuliaPackageMirrors) Tree-Daten (u.a. Debug)
+- TERMIOS.JI (kdheepak) Posix Interface
 - TerminalGraphics.jl (m-j-w) - JPG etc.
-- Terming.jl (foldfelis) ...
-- Terminals.jl(Keno) ...
+- ***Terming.jl*** (foldfelis) Interface TTY
+- Terminals.jl(Keno) Interface TTY (Komplex)
 - EchoREPL.jl (antimon2) - REPL Demo
 - ***Term.jl*** (FedeClaudi) - Wie RICH plus Input
 - NCurses.jl (Keno) - NCurses Interface
@@ -331,4 +332,14 @@ Spezial \ | Shift Option 7
 # Merke
 
 > Retirement is: “Not having the need to work for money. Plus, the freedom to start and stop doing anything with no consequences.”
+
+
+# Rechtliches
+
+*Der Herausgeber übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Der Herausgeber behält es sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen. Haftungsansprüche gegen den Inhaber, die sich auf Schäden materieller oder ideeller Art beziehen, welche durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollständiger Informationen verursacht wurden sind ausgeschlossen.*
+
+*Die Links und Informationen werden nur zum Informationsaustausch bereitgestellt und begründen keine geschäftlichen oder beruflichen Beziehungen irgendwelcher Art, sondern dienen rein informativen Zwecken.*
+
+
+
 

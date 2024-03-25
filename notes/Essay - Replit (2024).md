@@ -15,9 +15,9 @@ Der Einstieg ist durch eine vorinstallierte IDE und hauseigene Benutzerführung 
 - Desktop-App für Windows
 - Desktop-App für macOS (Intel & M1)
 
-Das Verhalten von Replit variiert leicht je nach Zugriffsmethode. Eine Anmeldung ist jedoch in jedem Fall erforderlich. Die Desktop-Versionen können nur über die Anmeldung im Browser geladen werden (Sidebar).
+Das Verhalten von Replit variiert leicht je nach Zugriffsmethode. Eine Anmeldung ist jedoch in jedem Fall erforderlich. Die Desktop-Versionen können nach der Anmeldung im Browser geladen werden (Sidebar) oder über diesen Link: https://replit.com/desktop
 
-Replit konzentriert sich auf Programmiersprachen, die überwiegend interaktiv verwendet werden können. Der Firmenname leitet sich vom Prinzip des 'REPL' (Read-Eval-Print-Loop) ab (replit.com - Keine Schleich-Werbung). 
+Replit konzentriert sich auf Programmiersprachen, die überwiegend interaktiv verwendet werden können. Der Firmenname 'REPLIT' leitet sich vom Prinzip der 'REPL' (Read-Eval-Print-Loop) ab.
 
 Für mich war es zunächst entscheidend, dass Julia (aktuell 1.7.2) unterstützt wird. Allerdings garantierte die Unterstützung von Julia noch nicht, dass ich meinen Anwendungsbereich abdecken konnte. 
 
@@ -103,35 +103,30 @@ else
   
   # Link neu angelegen
   ln -s $(pwd)/.julia/ ~/.julia
-      
-  cp $(pwd)/.vimrc ~/.vimrc
-  cp $(pwd)/.vifmrc ~/.vifmrc
-        
-  cp -r $(pwd)/.local/ /home/runner/bin
-  # soll entfallen source /home/runner/.local/bin/aliases
-  # cp $(pwd)/s /home/runner/.local/bin/
-        
-  alias c="clear"
-  alias x="vifm"
-  alias ed="vim"
-  alias m="julia mainmenue.jl"
-  alias nvim="vim"
-  alias jj="julia -q"
-  alias la="ls -a1"
-  alias ll="ls -al1"
-        
-        
-  # PROMPT='R %(?.%F{green}ok.%F{red}?%?)%f %B%F{63}%1~%f%b %(!.#.$) '
-  export PS1='\W$ '
-  
-  export MYVIFMRC=~/.vifmrc
-  
-  clear
-  
+
 fi
+      
+cp $(pwd)/.vimrc ~/.vimrc
+cp $(pwd)/.vifmrc ~/.vifmrc
+
+cp -r $(pwd)/.local/ /home/runner/
+
+alias c="clear"
+alias x="vifm"
+alias ed="vim"
+alias m="julia mainmenue.jl"
+alias nvim="vim"
+alias jj="julia -q"
+alias la="ls -a1"
+alias ll="ls -al1"
 
 
+# PROMPT='R %(?.%F{green}ok.%F{red}?%?)%f %B%F{63}%1~%f%b %(!.#.$) '
+export PS1='\W$ '
 
+export MYVIFMRC=~/.vifmrc
+
+clear
 ```
 
 ## Schlusswort

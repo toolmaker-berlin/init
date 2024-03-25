@@ -1,4 +1,4 @@
-Stand 19. März 2024
+Stand 25. März 2024
 
 Oftmals vergisst man im Laufe der Zeit wie man bestimmte Probleme in der Vergangenheit gelöst hat oder welche Schritte notwendig waren um etwas richtig zu installieren und zu konfigurieren. Insbesondere bei selten oder lange nicht benutzten Werkzeugen kann es nützlich sein eine Sammlung grundsätzlicher Informationen zur Hand zu haben.
 
@@ -62,6 +62,7 @@ Im Einzelfall auch VSC und Jupyter Lab (Desktop) lokal verwenden!
 - regex.md
 - tmux.md
 - vifm-spicker.md
+- Essay - Replit mit Julia (2024) 
 
 <!--- (3x'-' für PANDOC) 
 - offen: Mobil First, Cloud Nativ, Provider Indepent (Essay)

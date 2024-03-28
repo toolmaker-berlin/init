@@ -85,7 +85,7 @@ Dennoch gibt es Möglichkeiten, diese Herausforderungen zu bewältigen.
 - Da der Pfad nicht geändert werden kann, müssen kleine Tools in das einzige ungeschützte Verzeichnis ".local/bin" kopiert werden.
 
 
-Mein aktuelles Start Skript:
+> Mein aktuelles Start Skript:
 
 
 ```bash
@@ -129,6 +129,28 @@ export MYVIFMRC=~/.vifmrc
 clear
 ```
 
+> Mein aktuelles "Startup"-File (main.jl - RUN-Button)
+
+```Julia
+print("\033c")
+
+try
+  using Crayons
+catch
+  script = "source " * pwd() * "/s"
+  run(`sh -c $script`;wait=true)
+  sleep(1)
+end
+
+using OhMyREPL
+using Crayons
+using BenchmarkTools
+
+# ... Hier dann weiterer Code (oder Shell verwenden)
+# ...
+# ...
+
+```
 ## Schlusswort
 
 Replit bietet eine vielseitige Plattform für Programmierer, insbesondere für Lernende und Experimentierende. Obwohl es einige Einschränkungen und Verbesserungsmöglichkeiten gibt, ermöglicht es dennoch einen einfachen Einstieg in die Programmierung und bietet eine gute Möglichkeit, Projekte zu verwalten und zu teilen. Durch kontinuierliche Verbesserungen und Anpassungen kann Replit seine Position als nützliches Werkzeug für Entwickler weiter ausbauen.
